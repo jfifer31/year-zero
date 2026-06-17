@@ -39,9 +39,9 @@ When contributing, identify the type of contribution.
 
 ---
 
-## 3. Evidence expectations
+## 3. Evidence and claim expectations
 
-A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides.
+A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides. Do not present anecdote as proof; describe practical experience as experience.
 
 Evidence may include:
 

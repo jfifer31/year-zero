@@ -185,14 +185,6 @@ Version 0.1 should therefore be designed for revision, not defended as final.
 
 ## Operating cadence
 
-For each stage:
+Each stage follows the operating cadence defined in `docs/RESEARCH_OPERATING_SYSTEM.md`: authorised inputs, execution plan, evidence review, stage ledger, report, adversarial review, pass-forward memo, public summary and gate decision.
 
-1. Read authorised inputs.
-2. Create stage execution plan.
-3. Conduct research.
-4. Populate stage ledger.
-5. Produce stage report.
-6. Run adversarial review.
-7. Complete pass-forward memo.
-8. Produce public summary.
-9. Move to the next stage only when gate conditions are met.
+Agent sequencing and role activation for that cadence are defined in `AGENTS.md`.

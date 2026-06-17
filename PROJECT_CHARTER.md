@@ -144,7 +144,7 @@ The canonical phase sequence lives in [`ROADMAP.md`](ROADMAP.md). The stage navi
 
 ---
 
-## 10. Claim discipline
+## 10. Research discipline
 
 The project separates empirical findings, working assumptions, normative judgements, speculative projections and later-stage design decisions. No agent or contributor may present one claim type as another.
 
@@ -162,7 +162,7 @@ This protects the project from hidden drift.
 
 ---
 
-## 12. Public release principle
+## 11. Public release principle
 
 The project should be publicly understandable without being intellectually weakened.
 
@@ -178,25 +178,17 @@ Public materials should:
 
 ---
 
-## 13. Ethical commitments
+## 12. Ethical commitments
 
 The project must be especially careful because it concerns young people.
 
-It must:
+It must avoid exposing private learner data, publicising sensitive learner reflections, claiming proven impact without evidence, treating children as experimental subjects without safeguards, encouraging people to abandon statutory obligations or obscuring the experimental status of Version 0.1.
 
-- avoid exposing private learner data;
-- avoid publicising sensitive learner reflections;
-- avoid claiming proven impact without evidence;
-- avoid treating children as experimental subjects without appropriate safeguards;
-- avoid encouraging parents or learners to abandon statutory obligations;
-- make experimental status clear;
-- design for privacy and dignity from the start.
-
-Detailed rules are defined in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+The canonical rules for safeguarding, learner privacy, consent/assent, public testing, AI logs and learner data are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
-## 14. Definition of a successful Version 0.1
+## 13. Definition of a successful Version 0.1
 
 Version 0.1 succeeds if it is:
 
@@ -213,7 +205,7 @@ It does not need to solve education. It needs to create the first serious, publi
 
 ---
 
-## 15. Current project status
+## 14. Current project status
 
 The project is in **Stage 0: Foundation**.
 

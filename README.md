@@ -2,7 +2,7 @@
 
 **Year Zero Education** is an open-source research and curriculum project for deriving a first-principles educational framework for young people growing up in the Intelligence Era.
 
-The project begins from a simple but demanding question:
+The guiding question is:
 
 > What should young people learn, experience, practise and demonstrate in order to become flourishing, capable and adaptive adults in a world increasingly shaped by artificial intelligence and abundant access to intelligence?
 
@@ -10,33 +10,16 @@ The first public output will be **Version 0.1**: a curriculum hypothesis for KS3
 
 ---
 
-## Why this project exists
+## Start here
 
-Most curriculum debates begin too late. They begin with existing subjects, timetables, exams, school systems, labour market needs or political priorities.
-
-Year Zero Education begins earlier.
-
-It asks what must remain true about education if artificial intelligence changes access to knowledge, intelligence, creativity, labour, coordination and decision-making. It treats curriculum not as a list of inherited subjects, but as an engineered response to a changing human condition.
-
-The project does **not** begin by asking:
-
-- Which subjects should be protected?
-- Which exams should be updated?
-- Which AI tools should students use?
-- Which future jobs should schools prepare for?
-
-It begins by asking:
-
-- What are human beings like?
-- What does flourishing mean for young people?
-- What future conditions might AI create?
-- What remains humanly important across plausible futures?
-- What functions must humans still perform?
-- What capabilities support those functions?
-- What knowledge, experience and practice develop those capabilities?
-- What evidence would show that learning has actually happened?
-
-Only after those questions have been worked through does the project design a curriculum architecture.
+| Reader | Start here | Canonical detail |
+|---|---|---|
+| AI agent / Codex executor | `AGENTS.md` | Agent sequencing, harnesses, role activation and operating discipline live in `AGENTS.md`. |
+| Project lead | `PROJECT_CHARTER.md` | Mission, scope, values and success definition live in `PROJECT_CHARTER.md`. |
+| Research contributor | `research/README.md` | Stage navigation lives in `research/README.md`; methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. |
+| Parent, educator or learner | `public/README.md` | Public orientation lives in `public/README.md`; safety rules live in `docs/ETHICS_AND_PUBLIC_TESTING.md`. |
+| Curriculum reader | `curriculum/v0.1/README.md` | Curriculum release-container status lives in `curriculum/v0.1/README.md`. |
+| Contributor | `CONTRIBUTING.md` | Contribution routes and expectations live in `CONTRIBUTING.md`. |
 
 ---
 
@@ -47,40 +30,18 @@ Year Zero Education is:
 - a first-principles curriculum research programme;
 - an agentic research and build system;
 - an open-source public learning project;
-- a Version 0.1 curriculum hypothesis for KS3–KS4 learners;
 - a contribution pathway for researchers, educators, parents, learners and builders;
 - a framework for researching, constructing, testing and improving a real future curriculum.
+
+For the full mission, scope, values and Version 0.1 success definition, read `PROJECT_CHARTER.md`.
 
 ---
 
 ## What this project is not
 
-Year Zero Education is not:
+Year Zero Education is not a finished curriculum, formal qualification, school, replacement for statutory education requirements, proven intervention or product designed to sell certainty.
 
-- a finished curriculum;
-- a formal qualification;
-- a school;
-- a replacement for statutory education requirements;
-- an evidence-backed intervention yet;
-- a claim that exams are useless;
-- a claim that existing subjects have no value;
-- a product designed to sell certainty.
-
-The first release is intentionally labelled **Version 0.1** because it should be criticised, tested and improved.
-
----
-
-## Initial scope
-
-The first curriculum hypothesis is designed for **KS3–KS4**, with the first release focused primarily on **KS3**.
-
-This means the project is especially concerned with learners roughly aged 11–16, while recognising that:
-
-- young people develop unevenly;
-- adolescence is not a single uniform stage;
-- KS3 and KS4 have different constraints;
-- any future implementation must adapt to home education, alternative provision, mainstream schooling and informal learning environments;
-- younger and older age ranges may require later versions.
+The first release is intentionally labelled **Version 0.1** because it should be criticised, tested and improved. For safe public-use boundaries, read `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
@@ -107,8 +68,6 @@ For the human-readable phase sequence, see [`ROADMAP.md`](ROADMAP.md). For the r
 
 ## Repository structure
 
-The final repository is organised into a small number of functional areas.
-
 ```text
 /
   README.md
@@ -116,49 +75,12 @@ The final repository is organised into a small number of functional areas.
   ROADMAP.md
   AGENTS.md
   CONTRIBUTING.md
-  LICENSE
-  CHANGELOG.md
-  FILE_STRUCTURE.md
-
-  /docs/
-    RESEARCH_OPERATING_SYSTEM.md
-    ETHICS_AND_PUBLIC_TESTING.md
-    GLOSSARY.md
-
-  /research/
-    README.md
-    /stage-01-human-baseline/
-      STAGE_GUIDE.md
-    ...
-    /stage-11-verification-release/
-      STAGE_GUIDE.md
-
-  /templates/
-    STAGE_EXECUTION_TEMPLATE.md
-    STAGE_REPORT_TEMPLATE.md
-    STAGE_REVIEW_TEMPLATE.md
-    PASS_FORWARD_TEMPLATE.md
-    PUBLIC_SUMMARY_TEMPLATE.md
-    STAGE_LEDGER_TEMPLATE.csv
-
-  /curriculum/v0.1/
-    README.md
-    CURRICULUM_FRAMEWORK.md
-    EVIDENCE_OF_LEARNING.md
-    IMPLEMENTATION_GUIDE.md
-    LIMITATIONS_AND_OPEN_QUESTIONS.md
-    TRACEABILITY_MAP.md
-
-  /public/
-    README.md
-    PUBLIC_FAQ.md
-    CONTENT_STRATEGY.md
-
-  /.github/
-    PULL_REQUEST_TEMPLATE.md
-    /ISSUE_TEMPLATE/
-      research_challenge.md
-      implementation_feedback.md
+  docs/
+  research/
+  templates/
+  curriculum/v0.1/
+  public/
+  .github/
 ```
 
 ---
@@ -173,37 +95,12 @@ This README intentionally keeps the rule short: the operating detail lives in on
 
 ## Version 0.1 principle
 
-Version 0.1 should be:
+Version 0.1 should be clear, traceable, evidence-disciplined, honest about uncertainty, usable by real people and humble enough to revise.
 
-- logically derived;
-- evidence-disciplined;
-- transparent in its assumptions;
-- honest about uncertainty;
-- usable by real people;
-- open to challenge;
-- structured enough to test;
-- humble enough to revise.
-
-It does not need to be perfect before release. It does need to be clear, traceable and serious.
+It does not need to be perfect before release. It does need to be serious enough to test.
 
 ---
 
 ## Current status
 
-The project is currently in **Stage 0: Foundation**.
-
-Stage 0 prepares the repository, agent instructions, stage guides, research templates, public-facing pathway and release container.
-
-The next substantive research action is:
-
-> Run Stage 1 – Human Baseline.
-
----
-
-## Contribution philosophy
-
-Contributions are welcome when they improve clarity, evidence, reasoning, implementation or public understanding.
-
-The project is not intended to become a loose collection of opinions. Contributions should identify the file, claim, evidence, assumption or implementation problem they affect.
-
-Start with `CONTRIBUTING.md`.
+The project is currently in **Stage 0: Foundation**. The next substantive stage is **Stage 1 – Human Baseline**.
