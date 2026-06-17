@@ -68,13 +68,7 @@ List the strongest objections to the stage output.
 |---|---|---|---|
 |  |  | `yes | no | uncertain` |  |
 
-Check for:
-
-- empirical claims disguised as assumptions;
-- assumptions disguised as findings;
-- values disguised as evidence;
-- projections disguised as predictions;
-- design choices disguised as inevitabilities.
+Check against the canonical claim-handling rules in `docs/RESEARCH_OPERATING_SYSTEM.md`, especially misclassified findings, assumptions, values, projections and design decisions.
 
 ---
 

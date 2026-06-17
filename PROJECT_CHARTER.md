@@ -183,16 +183,9 @@ Attack the full chain, classify weaknesses and prepare a responsible public rele
 
 ## 10. Claim discipline
 
-The project separates four kinds of claim.
+The project separates empirical findings, working assumptions, normative judgements, speculative projections and later-stage design decisions. No agent or contributor may present one claim type as another.
 
-| Claim type | Meaning | Required handling |
-|---|---|---|
-| Empirical Finding | A claim supported by evidence. | Cite source, state confidence, record limits. |
-| Working Assumption | A provisional claim used to proceed. | Label clearly, record alternatives, identify revision triggers. |
-| Normative Judgement | A claim about what should matter. | Explain value basis and trade-offs. |
-| Speculative Projection | A future-facing possibility. | Link to drivers, uncertainty and signposts. |
-
-No agent or contributor may present one claim type as another.
+The full operational taxonomy, handling rules, evidence standards, confidence language, uncertainty requirements, pass-forward protocol and adversarial review rules are defined in `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ---
 

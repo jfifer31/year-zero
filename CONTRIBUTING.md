@@ -61,14 +61,9 @@ Contributors should not present anecdote as proof. Practical experience is valua
 
 ## 4. Claim discipline
 
-If your contribution affects a claim, identify whether the claim is:
+If your contribution affects a claim, identify the claim type and whether your change affects evidence, confidence, uncertainty, downstream use or revision triggers.
 
-- an empirical finding;
-- a working assumption;
-- a normative judgement;
-- a speculative projection.
-
-The project’s claim rules are defined in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+Use the full claim taxonomy and handling rules in `docs/RESEARCH_OPERATING_SYSTEM.md`; this file does not duplicate them.
 
 ---
 
