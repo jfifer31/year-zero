@@ -133,23 +133,9 @@ Start with:
 
 Before Version 0.1 is fully released, treat any materials as exploratory.
 
-Do:
+Do use them cautiously, keep early testing low-stakes and protect learner privacy. Do not submit or publish private learner data, learner work, images, videos or AI logs.
 
-- use them for discussion;
-- test small pieces privately;
-- give feedback;
-- adapt cautiously;
-- protect learner privacy;
-- avoid high-stakes claims.
-
-Do not:
-
-- present them as proven;
-- use them to replace statutory obligations;
-- rank learners publicly;
-- upload private learner data;
-- use learner work as promotion without consent;
-- assume the first version is complete.
+Follow the full safeguarding, privacy, consent/assent, public-testing and promotional-use rules in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
