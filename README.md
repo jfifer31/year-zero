@@ -6,7 +6,7 @@ The project begins from a simple but demanding question:
 
 > What should young people learn, experience, practise and demonstrate in order to become flourishing, capable and adaptive adults in a world increasingly shaped by artificial intelligence and abundant access to intelligence?
 
-The first public output will be **Version 0.1**: a curriculum hypothesis for KS3–KS4 learners, with a KS3-first initial release. It will not claim to be proven. It will be a transparent, auditable starting point for public critique, practical testing and iterative improvement.
+The first public output will be **Version 0.1**: a curriculum hypothesis for KS3–KS4 learners, with a KS3-first initial release. **Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.** It will be a transparent, auditable starting point for public critique, practical testing and iterative improvement.
 
 ---
 
