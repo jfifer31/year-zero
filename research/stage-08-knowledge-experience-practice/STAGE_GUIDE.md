@@ -10,7 +10,7 @@ Identify the knowledge, experiences and practices that can cultivate the derived
 
 ## 3. Position in the chain
 
-**Depends on:** Stage 7 pass-forward output, with reference to Stages 1–6 where needed.
+**Depends on:** Stage 7 pass-forward output. Earlier material may be consulted only through authorised pass-forward statements and traceability references.
 
 **Feeds into:** Stage 9 Evidence of Learning and Stage 10 Curriculum Architecture.
 
@@ -117,7 +117,7 @@ This stage should produce:
 - AI Tool Use Principles;
 - Stage 8 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

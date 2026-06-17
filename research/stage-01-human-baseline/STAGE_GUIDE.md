@@ -93,7 +93,7 @@ Every significant source, claim, assumption, uncertainty and decision should be 
 
 ## 9. Execution workflow
 
-1. Read authorised inputs and previous pass-forward files.
+1. Read the authorised Stage 0 inputs; no prior-stage pass-forward exists.
 2. Restate the stage question in operational form.
 3. Create `STAGE_EXECUTION.md` from the template.
 4. Select agents and assign responsibilities.
@@ -117,7 +117,7 @@ This stage should produce:
 - Human Tension Map;
 - Stage 1 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

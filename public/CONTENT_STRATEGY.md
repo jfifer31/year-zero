@@ -4,6 +4,8 @@ This file defines how Year Zero Education should be explained publicly through w
 
 The goal is to make the project understandable, trustworthy and compelling without overclaiming.
 
+**Status:** Stage 0 communication plan. Draft campaign language and content ideas are not research findings, curriculum decisions or release claims. They must be revalidated against the relevant stage outputs before publication.
+
 ---
 
 ## 1. Public communication mission
@@ -77,7 +79,7 @@ A simple public explanation:
 
 ### Parents
 
-Your child may need more than content coverage and exam preparation. This project explores how young people can build judgement, agency, adaptability, meaning, practical capability and evidence of learning in an AI-shaped world.
+This project asks whether young people may need development beyond content coverage and exam preparation. Specific capabilities must be derived by the research chain before they are promoted publicly.
 
 ### Educators
 
@@ -85,7 +87,7 @@ This is a research-derived curriculum hypothesis you can challenge, adapt, compa
 
 ### Learners
 
-This project is about what you can become able to do, make, judge, understand and contribute — not just what you can memorise.
+This project is investigating what learners may need to understand, practise and demonstrate. It has not yet decided the answer.
 
 ### Researchers
 

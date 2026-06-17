@@ -162,7 +162,7 @@ This protects the project from hidden drift.
 
 ---
 
-## 11. Public release principle
+## 12. Public release principle
 
 The project should be publicly understandable without being intellectually weakened.
 
@@ -178,7 +178,7 @@ Public materials should:
 
 ---
 
-## 12. Ethical commitments
+## 13. Ethical commitments
 
 The project must be especially careful because it concerns young people.
 
@@ -188,7 +188,7 @@ The canonical rules for safeguarding, learner privacy, consent/assent, public te
 
 ---
 
-## 13. Definition of a successful Version 0.1
+## 14. Definition of a successful Version 0.1
 
 Version 0.1 succeeds if it is:
 
@@ -205,9 +205,9 @@ It does not need to solve education. It needs to create the first serious, publi
 
 ---
 
-## 14. Current project status
+## 15. Current project status
 
-The project is in **Stage 0: Foundation**.
+**Stage 0: Foundation is complete.** The repository now contains the operating files, stage guides, templates, release container and contribution pathways required to prepare Stage 1.
 
 Stage 0 is complete when the project has:
 
@@ -220,6 +220,6 @@ Stage 0 is complete when the project has:
 - public communication structure;
 - contribution pathway.
 
-The next substantive stage is:
+The next substantive stage, which has not yet begun, is:
 
 > Stage 1 – Human Baseline.

@@ -10,7 +10,7 @@ Define how capabilities can be observed, demonstrated, reflected upon and eventu
 
 ## 3. Position in the chain
 
-**Depends on:** Stage 8 pass-forward output and Stage 7 capability model.
+**Depends on:** Stage 8 pass-forward output and authorised Stage 7 capability references carried through the chain.
 
 **Feeds into:** Stage 10 Curriculum Architecture and Stage 11 Release Readiness.
 
@@ -58,7 +58,7 @@ The Master Coordinator should call the smallest sufficient team, but this stage 
 - Master Coordinator
 - Assessment and Verification Expert
 - Learning Sciences Expert
-- Ethics Safeguarding and Privacy Expert
+- Ethics, Safeguarding and Privacy Expert
 - Implementation Feasibility Expert
 - Adolescent Development Expert
 - Adversarial Red Team Agent
@@ -120,7 +120,7 @@ This stage should produce:
 - Verification Maturity Map;
 - Stage 9 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

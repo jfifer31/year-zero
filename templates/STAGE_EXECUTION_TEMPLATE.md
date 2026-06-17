@@ -15,7 +15,7 @@ Do not treat this as a formality. A weak execution plan usually produces a weak 
 **Stage folder:**  
 **Date started:**  
 **Stage owner / Master Coordinator:**  
-**Status:** `draft | active | review | passed | revise | rollback`
+**Workflow status:** `draft | active | review | closed`
 
 ---
 
@@ -188,9 +188,11 @@ Use the canonical `record_type` values defined in `docs/RESEARCH_OPERATING_SYSTE
 Before the stage can pass, the ledger should contain:
 
 - sources used;
+- evidence extracted;
 - claims made;
 - assumptions adopted;
 - uncertainties retained;
+- decisions made;
 - risks identified;
 - traceability links;
 - adversarial challenges;

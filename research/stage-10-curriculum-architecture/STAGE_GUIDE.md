@@ -118,7 +118,7 @@ This stage should produce:
 - Limitations and Open Questions Draft;
 - Stage 10 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files and authorised `curriculum/v0.1/` release files, not additional stage files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

@@ -10,7 +10,7 @@ Identify what remains fundamentally human, valuable or unavoidable across plausi
 
 ## 3. Position in the chain
 
-**Depends on:** Stage 4 pass-forward output, with access to Stages 1–3 as background.
+**Depends on:** Stage 4 pass-forward output. Earlier stage material may be consulted only through authorised pass-forward statements and traceability references.
 
 **Feeds into:** Stage 6 Enduring Human Functions.
 
@@ -118,7 +118,7 @@ This stage should produce:
 - Invariant-to-Flourishing Links;
 - Stage 5 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

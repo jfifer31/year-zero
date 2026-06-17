@@ -1,56 +1,46 @@
 # Public Guide to Year Zero Education
 
-Year Zero Education is an open-source project to design a new kind of curriculum for young people growing up in the Intelligence Era.
+Year Zero Education is an open-source project researching a future curriculum for young people growing up in a world increasingly shaped by artificial intelligence.
 
-It asks:
+Its guiding question is:
 
-> What should young people learn, experience, practise and demonstrate in order to become flourishing, capable and adaptive adults in a world increasingly shaped by artificial intelligence?
+> What should young people learn, experience, practise and demonstrate in order to become flourishing, capable and adaptive adults in the Intelligence Era?
 
-This public guide is for parents, learners, educators, mentors, contributors and anyone trying to understand the project without reading the full research system.
+This guide is for parents, learners, educators, mentors and interested public readers. It explains the project without requiring them to read the full research operating system.
 
 ---
 
 ## 1. The short version
 
-Year Zero Education is trying to build a first public version of a future-facing curriculum for KS3–KS4 learners, with a KS3-first focus.
+The project is working towards Version 0.1: a KS3–KS4 curriculum hypothesis with a KS3-first focus.
 
-The project does not begin with existing subjects and ask how to update them. It begins with human life, flourishing and plausible AI-shaped futures, then works forward toward capabilities, learning experiences and evidence of learning.
+It begins with human life, flourishing and plausible AI-shaped future conditions, then works towards capabilities, learning inputs, evidence of learning and curriculum architecture. Curriculum design does not begin until Stage 10.
 
-The first output will be **Version 0.1**: a curriculum hypothesis that can be used, criticised, tested and improved. **Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.**
-
----
+Version 0.1 will be a research-derived proposal for critique and testing, not evidence of proven effectiveness.
 
 ## 2. Why this matters
 
-AI may change how people access knowledge, create, work, decide, learn, negotiate truth and form identity. The answer cannot simply be “teach everyone to use AI tools”.
+AI may change how people access knowledge, create, work, decide, learn, negotiate truth and form identity. The educational response cannot be reduced to teaching everyone to use AI tools.
 
-The deeper question is what kind of human beings young people need to become when tools become more intelligent.
-
----
+Year Zero Education asks the prior question: what human development should education support under uncertain future conditions?
 
 ## 3. Who this is for
 
-- **Parents and home educators:** to think about agency, judgement, capability, evidence of learning and meaningful projects beyond conventional content coverage.
-- **Educators:** to compare current curriculum structures against a first-principles framework and explore future-facing enrichment or evidence models.
-- **Learners:** to understand learning as more than grades: what you can build, judge, explain, practise, improve and contribute.
-- **Researchers and experts:** to critique evidence, assumptions, future models, values, capability derivation and curriculum architecture.
-- **Builders and contributors:** to improve documentation, design tools, test activities, give feedback and challenge weak thinking.
+- **Parents and home educators:** to understand the project and, after release, assess whether parts are useful in their context.
+- **Educators:** to scrutinise the research chain and later compare Version 0.1 with existing provision.
+- **Learners:** to understand what the project is trying to build and what it does not yet claim.
+- **Researchers and experts:** to challenge evidence, assumptions, values and reasoning.
+- **Contributors:** to improve documentation, identify risks and submit structured feedback.
 
----
+## 4. What exists now
 
-## 4. What Version 0.1 is and is not
+Stage 0 has established the repository foundation: operating rules, stage guides, templates, public safeguards and an empty Version 0.1 release container.
 
-Version 0.1 will be an open-source, KS3–KS4 curriculum hypothesis that is traceable to a research process, honest about uncertainty and open to feedback.
+Stage 1 research has not begun. No curriculum, learning pathway, assessment model or implementation programme has yet been authorised.
 
-It will not be a proven curriculum, formal qualification, replacement for school, guarantee of learner outcomes, official assessment system, prediction of the future or finished answer.
-
-For the curriculum release-container status, read `curriculum/v0.1/README.md`.
-
----
+See the [project roadmap](../ROADMAP.md) for current status.
 
 ## 5. How the research works
-
-The public version of the chain is:
 
 ```text
 Human Baseline
@@ -66,42 +56,21 @@ Human Baseline
 → Verification and Release
 ```
 
-For stage navigation, read `research/README.md`. For methodology, evidence, claim discipline, uncertainty, pass-forward rules, adversarial review and gates, read `docs/RESEARCH_OPERATING_SYSTEM.md`.
-
----
+Use the [research-stage index](../research/README.md) to follow the stages. The full method, evidence rules and gate requirements are in the [Research Operating System](../docs/RESEARCH_OPERATING_SYSTEM.md).
 
 ## 6. How to use early materials safely
 
-Before Version 0.1 is fully released, treat materials as exploratory: use them for discussion, small private tests and feedback, not as proven programmes or high-stakes evidence.
+Until Version 0.1 is released, repository materials are research and planning materials. They are not a proven programme, formal qualification or substitute for statutory obligations.
 
-Do not upload private learner data, rank learners publicly, replace statutory obligations or use learner work as promotion without appropriate consent and assent. The canonical safety rules are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+Do not submit private learner data, learner work, images, videos or AI logs. Do not publicly rank learners or use their participation as promotional proof. Follow the [ethics and public-testing rules](../docs/ETHICS_AND_PUBLIC_TESTING.md).
 
----
+## 7. How to follow or contribute
 
-## 8. How to use early materials safely
+1. Read the [Public FAQ](PUBLIC_FAQ.md).
+2. Read the [Project Charter](../PROJECT_CHARTER.md) for mission and scope.
+3. Read [CONTRIBUTING.md](../CONTRIBUTING.md) before suggesting evidence, challenging a claim or reporting implementation feedback.
+4. Use the relevant GitHub issue template so feedback can be reviewed and traced.
 
-Before Version 0.1 is fully released, treat any materials as exploratory.
+## 8. The public promise
 
-Do use them cautiously, keep early testing low-stakes and protect learner privacy. Do not submit or publish private learner data, learner work, images, videos or AI logs.
-
-Follow the full safeguarding, privacy, consent/assent, public-testing and promotional-use rules in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
-
----
-
-## 9. How to contribute
-
-There are several useful ways to contribute:
-
-- challenge a claim;
-- suggest better evidence;
-- report implementation feedback;
-- identify access or safeguarding concerns;
-- improve public explanation;
-- test small learning activities;
-- help make the project clearer.
-
-1. `README.md` for the project overview.
-2. `PROJECT_CHARTER.md` for the mission, scope, values and success definition.
-3. `ROADMAP.md` for project phases and the stage sequence.
-4. `public/PUBLIC_FAQ.md` for common questions.
-5. `CONTRIBUTING.md` if you want to help or challenge the project.
+Year Zero Education should be ambitious without becoming overconfident. It will distinguish findings from assumptions and values, preserve uncertainty and protect young people from being used as proof points.

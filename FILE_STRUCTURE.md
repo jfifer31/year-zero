@@ -1,6 +1,6 @@
 # File Structure
 
-This file describes the intended final repository structure for Year Zero Education.
+This file describes the Stage 0 foundation structure for Year Zero Education and the files later stages will populate.
 
 It should be updated whenever files are added, removed, renamed or consolidated.
 
@@ -23,8 +23,8 @@ It should be updated whenever files are added, removed, renamed or consolidated.
 | File | Purpose |
 |---|---|
 | `README.md` | Public entry point and navigation hub. |
-| `PROJECT_CHARTER.md` | Canonical mission, scope and research-chain definition. |
-| `ROADMAP.md` | Execution sequence from Stage 0 to Version 0.1 and beyond. |
+| `PROJECT_CHARTER.md` | Canonical mission, scope, values and Version 0.1 success definition. |
+| `ROADMAP.md` | Canonical phase sequence and current project status. |
 | `AGENTS.md` | Agent operating manual and reusable harness definitions. |
 | `CONTRIBUTING.md` | Contribution rules, conduct expectations and safety basics. |
 | `LICENSE` | Licence model for content and code. |
@@ -127,6 +127,8 @@ Templates are copied into stage folders during execution.
 
 This folder should remain mostly structural until Stage 10 and Stage 11 authorise curriculum content.
 
+Stage 9 may populate `EVIDENCE_OF_LEARNING.md`; Stage 10 may populate the curriculum framework and implementation files; Stage 11 performs the final release gate. Before those stages, the files contain neutral prompts and table structures only.
+
 ---
 
 ## Public communication
@@ -152,7 +154,7 @@ This folder explains the project to parents, learners, educators and the wider p
     implementation_feedback.md
 ```
 
-These files structure public contribution and feedback.
+These Markdown issue templates and the pull request template structure public contribution and feedback.
 
 ---
 

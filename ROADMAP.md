@@ -8,9 +8,11 @@ The project should move quickly, but not carelessly. It is designed to build a s
 
 ## Current phase
 
-**Current phase:** Stage 0 – Foundation  
-**Current objective:** Build the project filebase, operating system and stage guides.  
-**Next substantive action:** Run Stage 1 – Human Baseline.
+**Current phase:** Stage 0 complete; Stage 1 preparation
+
+**Current objective:** Approve the Stage 1 execution plan without beginning research prematurely.
+
+**Next substantive action:** Create and review the Stage 1 execution files, beginning with `STAGE_EXECUTION.md`.
 
 ---
 
@@ -39,6 +41,8 @@ Create the repository structure and operating system required to run the full re
 ### Completion criteria
 
 Stage 0 is complete when an agent can enter the repository, read `AGENTS.md`, find the correct stage guide, use the correct templates and begin Stage 1 without needing additional project explanation.
+
+**Completion status:** Complete. Stage 1 research remains subject to a separate start decision.
 
 ---
 
