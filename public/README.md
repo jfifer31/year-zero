@@ -78,18 +78,30 @@ Do not upload private learner data, rank learners publicly, replace statutory ob
 
 ---
 
-## 7. How to follow or contribute
+## 8. How to use early materials safely
 
-Start with:
+Before Version 0.1 is fully released, treat any materials as exploratory.
+
+Do use them cautiously, keep early testing low-stakes and protect learner privacy. Do not submit or publish private learner data, learner work, images, videos or AI logs.
+
+Follow the full safeguarding, privacy, consent/assent, public-testing and promotional-use rules in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+
+---
+
+## 9. How to contribute
+
+There are several useful ways to contribute:
+
+- challenge a claim;
+- suggest better evidence;
+- report implementation feedback;
+- identify access or safeguarding concerns;
+- improve public explanation;
+- test small learning activities;
+- help make the project clearer.
 
 1. `README.md` for the project overview.
 2. `PROJECT_CHARTER.md` for the mission, scope, values and success definition.
 3. `ROADMAP.md` for project phases and the stage sequence.
 4. `public/PUBLIC_FAQ.md` for common questions.
 5. `CONTRIBUTING.md` if you want to help or challenge the project.
-
----
-
-## 8. The public promise
-
-Year Zero Education should be ambitious without becoming overconfident. Its purpose is not to announce a finished answer, but to build a better starting point for asking what education should become.

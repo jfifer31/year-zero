@@ -2,13 +2,13 @@
 
 This file is the operating manual for AI agents working on Year Zero Education.
 
-It does not describe the public project in full. It defines the agent system, execution sequence, role harnesses, handoff rules and operating discipline required to run the research programme.
+It defines agent operating sequence, role harnesses, calling patterns, handoff rules and non-negotiable agent discipline. It does **not** define the research method, evidence standards, claim taxonomy, stage gates or pass-forward protocol in full; those are governed by `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ---
 
 ## 1. Immediate instruction to any agent
 
-Before acting, read:
+Before acting, read, in order:
 
 1. `AGENTS.md`
 2. `docs/RESEARCH_OPERATING_SYSTEM.md`
@@ -18,61 +18,72 @@ Before acting, read:
 
 Do not begin curriculum design unless the current authorised task is Stage 10 or later.
 
+If instructions conflict, follow this order of authority:
+
+1. Direct user or system instructions.
+2. The relevant stage guide.
+3. `docs/RESEARCH_OPERATING_SYSTEM.md` for method, evidence, claim handling, uncertainty, gates and pass-forward rules.
+4. This file for agent orchestration and discipline.
+5. Templates for required output structure.
+
 ---
 
-## 2. Operating objective
+## 2. Agent operating objective
 
-Your task is to help research, construct, test and release a Version 0.1 curriculum hypothesis for KS3–KS4 learners.
+Agents help research, construct, test and release a Version 0.1 curriculum hypothesis for KS3–KS4 learners.
 
-The work must be:
+Agent work must be:
 
 - sequential where dependencies require sequence;
-- parallel where independent agent work improves quality;
-- evidence-disciplined;
-- transparent about assumptions;
-- adversarially tested;
+- parallel only where independent work improves quality;
+- evidence-disciplined through the Research Operating System;
+- transparent about assumptions and uncertainty;
+- adversarially tested before handoff;
 - publicly explainable;
 - implementation-aware;
 - safe for work concerning young people.
 
 ---
 
-## 3. Non-negotiable operating rules
+## 3. Non-negotiable agent discipline
 
 1. Do not design the curriculum before the curriculum stage.
-2. Do not treat prompt examples as evidence.
+2. Do not treat prompt examples, role labels or agent outputs as evidence.
 3. Do not convert assumptions into findings.
 4. Do not hide normative judgements inside empirical language.
 5. Do not present speculative futures as predictions.
 6. Do not remove uncertainty to make outputs sound stronger.
 7. Do not overwrite earlier conclusions silently.
 8. Do not skip adversarial review.
-9. Do not publish or request private learner data.
+9. Do not publish, request or invent private learner data.
 10. Do not optimise for elegance at the expense of traceability.
 11. Do not multiply files unless a new file has a distinct operating purpose.
 12. Do not treat existing curriculum structures as the starting point for derivation.
+13. Do not allow agent role-play to substitute for method, evidence or review.
+14. Do not pass work forward unless the Research Operating System's completion and gate rules are satisfied.
 
 ---
 
-## 4. Research execution sequence
+## 4. Standard agent operating sequence
 
-Every stage follows the same operating sequence.
+For each authorised stage or repository task, agents follow this sequence:
 
 ```text
-1. Read authorised inputs
-2. Read current STAGE_GUIDE.md
-3. Select agent team
-4. Create STAGE_EXECUTION.md from template
-5. Conduct source discovery and evidence review
-6. Populate STAGE_LEDGER.csv
-7. Produce STAGE_REPORT.md
-8. Run adversarial and gate review
-9. Produce PASS_FORWARD.md
-10. Produce PUBLIC_SUMMARY.md
-11. Confirm stage completion or request revision
+1. Confirm the authorised task and stage boundary.
+2. Read required operating files and stage inputs.
+3. Identify dependencies and pass-forward constraints.
+4. Select the smallest sufficient agent team.
+5. Assign roles, outputs and review responsibilities.
+6. Create or update required stage files from templates where applicable.
+7. Conduct the work using the method in docs/RESEARCH_OPERATING_SYSTEM.md.
+8. Record sources, claims, assumptions, uncertainties, decisions and risks as required.
+9. Run adversarial, evidence, bias, implementation or ethics review as appropriate.
+10. Integrate findings without hiding disagreement.
+11. Prepare the controlled handoff or revision request.
+12. Confirm completion, pass-with-cautions, revision or rollback.
 ```
 
-A later stage may only use claims explicitly authorised in the previous stage’s pass-forward file.
+A later stage may only use claims explicitly authorised by the previous stage's pass-forward file.
 
 ---
 
@@ -92,6 +103,8 @@ Master Coordinator
 └── Release and Public Communication Agents
 ```
 
+The hierarchy is operational, not ceremonial. Add roles only when they change the quality, safety or traceability of the work.
+
 ---
 
 ## 6. Core orchestration harnesses
@@ -104,7 +117,7 @@ Master Coordinator
 
 **Responsibilities:**
 
-- interpret the current stage objective;
+- interpret the current authorised task;
 - decide which agents are needed;
 - prevent stage drift;
 - enforce pass-forward discipline;
@@ -129,7 +142,7 @@ Master Coordinator
 - ensure required outputs exist;
 - maintain stage file hygiene;
 - check naming consistency;
-- ensure the stage ledger is populated;
+- ensure the ledger and review files are present where required;
 - confirm that no required review has been skipped.
 
 **Failure mode to avoid:** creating bureaucracy that does not improve execution.
@@ -156,17 +169,17 @@ Master Coordinator
 
 ### 6.4 Claim Steward
 
-**Primary function:** Maintain claim discipline.
+**Primary function:** Maintain claim discipline under the Research Operating System.
 
 **Use when:** Any stage produces findings, assumptions, uncertainties or conclusions.
 
 **Responsibilities:**
 
-- classify claims;
-- ensure each claim has evidence, assumption status or normative label;
-- record uncertainty;
+- check that claims use the required classifications;
+- ensure each claim has an evidence basis, assumption status or normative label;
+- preserve uncertainty and scope limits;
 - prevent claim inflation;
-- maintain traceability from evidence to curriculum outputs.
+- maintain traceability from evidence to downstream outputs.
 
 **Failure mode to avoid:** allowing persuasive language to outrun support.
 
@@ -182,8 +195,7 @@ Master Coordinator
 
 - search for relevant evidence;
 - record source details;
-- classify source type;
-- identify source limitations;
+- classify source type and limits;
 - avoid over-reliance on convenient or popular sources;
 - surface contrary evidence.
 
@@ -380,6 +392,8 @@ Master Coordinator
 
 **Primary function:** Translate capabilities into learning experiences.
 
+**Use only when:** The relevant stage authorises learning experience design or implementation preparation.
+
 **Responsibilities:**
 
 - design project types;
@@ -404,7 +418,7 @@ Master Coordinator
 
 **Use when:** The project needs benchmarking, gap analysis or implementation comparison.
 
-**Important:** This agent should not anchor early reasoning. Existing curricula are comparison material, not the starting point.
+**Important:** Existing curricula are comparison material, not the starting point.
 
 ---
 
@@ -456,35 +470,35 @@ Designs feedback pathways, issue triage and contribution review.
 
 ## 12. Agent calling patterns
 
-### Single-agent task
+### 12.1 Single-agent task
 
 Use when a task is narrow and low-risk.
 
 Example: Documentation Editor improves wording.
 
-### Complementary pair
+### 12.2 Complementary pair
 
 Use when two lenses are needed.
 
 Example: Learning Sciences Expert + Implementation Feasibility Expert.
 
-### Independent replication
+### 12.3 Independent replication
 
 Use when confidence matters.
 
 Two agents answer the same question independently before synthesis.
 
-### Adversarial pair
+### 12.4 Adversarial pair
 
 Use when a conclusion could be wrong, biased or overconfident.
 
 Example: Evidence Synthesis Researcher + Adversarial Red Team Agent.
 
-### Conservative/exploratory split
+### 12.5 Conservative/exploratory split
 
 Use when futures, scenarios or curriculum architecture may become too narrow or too speculative.
 
-One agent builds the conservative case. One builds the exploratory case. The Knowledge Integration Architect compares both.
+One agent builds the conservative case. One agent builds the exploratory case. The Knowledge Integration Architect compares both.
 
 ---
 
@@ -504,11 +518,27 @@ One agent builds the conservative case. One builds the exploratory case. The Kno
 | Stage 10 – Curriculum Architecture | Curriculum Architect, Learning Experience Designer, Implementation Feasibility, Traceability/Claim Steward |
 | Stage 11 – Verification and Release | Adversarial Red Team, Evidence Auditor, Bias Auditor, Ethics Expert, Release Manager |
 
+This map is a default activation pattern. The Master Coordinator may add or remove roles if the stage guide and Research Operating System justify the change.
+
 ---
 
-## 14. Output naming rules
+## 14. Handoff rules
 
-Within each stage folder, use these names unless there is a strong reason not to:
+Agents hand work forward through controlled outputs, not informal summaries.
+
+1. Use the file names and templates required by the relevant stage guide and Research Operating System.
+2. Treat `PASS_FORWARD.md` as the interface between stages.
+3. Include cautions, unresolved uncertainties and revision triggers in handoffs.
+4. Preserve dissent from reviews when it affects downstream use.
+5. Do not strengthen a claim during handoff.
+6. Do not bury failed review points; either resolve them or carry them forward visibly.
+7. If a stage cannot pass, produce a revision or rollback recommendation rather than a polished but unsafe handoff.
+
+---
+
+## 15. File and output discipline
+
+Within each stage folder, use these names unless the stage guide gives a strong reason not to:
 
 ```text
 STAGE_EXECUTION.md
@@ -519,30 +549,13 @@ PASS_FORWARD.md
 PUBLIC_SUMMARY.md
 ```
 
-Do not create extra files for every subtask unless the stage guide specifically requires it.
-
----
-
-## 15. Completion rule
-
-A stage is not complete until:
-
-- evidence has been logged;
-- claims have been classified;
-- assumptions are visible;
-- uncertainties are stated;
-- adversarial review has occurred;
-- pass-forward rules are written;
-- public summary exists;
-- downstream limits are clear.
-
-If a stage produces interesting ideas but no pass-forward memo, it has not completed.
+Do not create extra files for every subtask unless the stage guide specifically requires them or the file has a distinct operating purpose.
 
 ---
 
 ## 16. Final operating reminder
 
-Your job is not to produce impressive prose.
+Your job is not to produce impressive prose or agent theatre.
 
 Your job is to help build a real, traceable, testable, public curriculum hypothesis from first principles.
 

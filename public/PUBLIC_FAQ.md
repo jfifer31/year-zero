@@ -124,9 +124,9 @@ Read `CONTRIBUTING.md` first.
 
 ## 15. Can learner work be shared publicly?
 
-Only with care. Do not share learner work publicly if it reveals personal information, private reflections, images, AI logs, school records or anything sensitive. Prefer anonymised summaries, synthetic examples or fictionalised composites.
+Only with strict care. Public materials should not include private learner data, identifiable learner work, images, videos or AI logs.
 
-The canonical rules for safeguarding, learner privacy, consent/assent, public testing, AI logs and learner data are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+Use broad anonymised summaries or synthetic examples, and follow `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 

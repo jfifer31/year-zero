@@ -1,10 +1,10 @@
 # Research Operating System
 
-This file defines the research method, quality controls and execution discipline for Year Zero Education.
+This file defines the research method, evidence standards, claim classification, stage gates, uncertainty discipline and pass-forward rules for Year Zero Education.
 
-It is the canonical source for how research is conducted, how claims are classified, how evidence is handled, how uncertainty is preserved and how one stage passes authorised outputs to the next.
+It is the canonical source for how research is conducted, how claims are classified, how evidence is handled, how uncertainty is preserved and how one stage passes authorised outputs to the next. Agent roles and harnesses are defined in `AGENTS.md`, but those roles must follow this methodological operating manual.
 
-Agents and human researchers should treat this file as the project’s methodological operating manual.
+Agents and human researchers should treat this file as the project’s binding research method.
 
 ---
 
@@ -42,7 +42,25 @@ The operating system exists to protect that chain from:
 
 ---
 
-## 2. Core research rule
+## 2. Canonical scope
+
+This file governs the project's research method. It is authoritative for:
+
+- method selection and justification;
+- source discovery and evidence standards;
+- ledger requirements;
+- claim classification and claim handling;
+- confidence, uncertainty and evidence weighting;
+- stage gates and completion standards;
+- adversarial, bias, implementation and ethics review expectations;
+- pass-forward and traceability rules;
+- revision, rollback and versioning logic.
+
+`AGENTS.md` governs agent operating sequence, roles, harnesses and handoff discipline. Where an agent role conflicts with this file, this file controls the research method.
+
+---
+
+## 3. Core research rule
 
 Every stage must answer the question it has actually been assigned, not the question the agent finds most interesting.
 
@@ -50,7 +68,7 @@ A stage should not solve later stages early. It may identify downstream implicat
 
 ---
 
-## 3. Engineering mindset
+## 4. Engineering mindset
 
 Year Zero Education is a research-and-build project.
 
@@ -69,7 +87,7 @@ The goal is not to achieve final certainty before Version 0.1. The goal is to bu
 
 ---
 
-## 4. The research chain
+## 5. The research chain
 
 The project uses eleven substantive stages after foundation setup.
 
@@ -89,7 +107,7 @@ The project uses eleven substantive stages after foundation setup.
 
 ---
 
-## 5. Dependency discipline
+## 6. Dependency discipline
 
 Stages depend on previous stages through pass-forward outputs.
 
@@ -112,7 +130,7 @@ A later stage may not:
 
 ---
 
-## 6. Required outputs per stage
+## 7. Required outputs per stage
 
 Each completed stage should produce the following files inside its stage folder:
 
@@ -127,7 +145,7 @@ PUBLIC_SUMMARY.md
 
 These files should be created from the templates in `/templates/`.
 
-### 6.1 `STAGE_EXECUTION.md`
+### 7.1 `STAGE_EXECUTION.md`
 
 Defines how the stage will be run.
 
@@ -143,13 +161,13 @@ Includes:
 - prompts used;
 - output checklist.
 
-### 6.2 `STAGE_LEDGER.csv`
+### 7.2 `STAGE_LEDGER.csv`
 
 Single structured ledger for sources, claims, assumptions, uncertainties, decisions, risks and traceability records.
 
 This replaces multiple separate CSVs.
 
-### 6.3 `STAGE_REPORT.md`
+### 7.3 `STAGE_REPORT.md`
 
 Main technical report.
 
@@ -164,7 +182,7 @@ Includes:
 - implications;
 - limitations.
 
-### 6.4 `STAGE_REVIEW.md`
+### 7.4 `STAGE_REVIEW.md`
 
 Combined adversarial review, gate review and risk review.
 
@@ -177,7 +195,7 @@ Includes:
 - ethical concerns;
 - pass/revise/rollback recommendation.
 
-### 6.5 `PASS_FORWARD.md`
+### 7.5 `PASS_FORWARD.md`
 
 Controlled handoff to the next stage.
 
@@ -189,7 +207,7 @@ Includes:
 - claims not to overextend;
 - revision triggers.
 
-### 6.6 `PUBLIC_SUMMARY.md`
+### 7.6 `PUBLIC_SUMMARY.md`
 
 Plain-language explanation.
 
@@ -203,7 +221,7 @@ Includes:
 
 ---
 
-## 7. Stage ledger system
+## 8. Stage ledger system
 
 The project uses one ledger per stage instead of many separate logs.
 
@@ -228,7 +246,7 @@ This ledger is the operational memory of the stage.
 
 ---
 
-## 8. Claim classification
+## 9. Claim classification
 
 Every important claim must be classified.
 
@@ -244,9 +262,9 @@ The first four are the primary claim types. `Design Decision` is used mainly in 
 
 ---
 
-## 9. Claim handling rules
+## 10. Claim handling rules
 
-### 9.1 Empirical findings
+### 10.1 Empirical findings
 
 An empirical finding must include:
 
@@ -258,7 +276,7 @@ An empirical finding must include:
 - counterevidence if known;
 - downstream use.
 
-### 9.2 Working assumptions
+### 10.2 Working assumptions
 
 A working assumption must include:
 
@@ -268,7 +286,7 @@ A working assumption must include:
 - what would change if it is wrong;
 - revision trigger.
 
-### 9.3 Normative judgements
+### 10.3 Normative judgements
 
 A normative judgement must include:
 
@@ -278,7 +296,7 @@ A normative judgement must include:
 - disagreement likely;
 - implications for curriculum design.
 
-### 9.4 Speculative projections
+### 10.4 Speculative projections
 
 A speculative projection must include:
 
@@ -288,7 +306,7 @@ A speculative projection must include:
 - signposts;
 - risk of overuse.
 
-### 9.5 Design decisions
+### 10.5 Design decisions
 
 A design decision must include:
 
@@ -300,7 +318,7 @@ A design decision must include:
 
 ---
 
-## 10. Confidence levels
+## 11. Confidence levels
 
 Use qualitative confidence labels.
 
@@ -315,7 +333,7 @@ Do not use numerical confidence unless the method justifies it.
 
 ---
 
-## 11. Evidence weighting
+## 12. Evidence weighting
 
 Sources and evidence should be weighted according to their role.
 
@@ -331,7 +349,7 @@ An illustrative example should never become an anchor.
 
 ---
 
-## 12. Source hierarchy
+## 13. Source hierarchy
 
 Different stages require different source types. However, the project should usually prefer:
 
@@ -347,7 +365,7 @@ The project should not reject qualitative evidence simply because it is qualitat
 
 ---
 
-## 13. Source logging requirements
+## 14. Source logging requirements
 
 Every important source should be logged in `STAGE_LEDGER.csv` with:
 
@@ -367,7 +385,7 @@ If a source is rejected after review, it may still be logged as `non-decision` i
 
 ---
 
-## 14. Method selection
+## 15. Method selection
 
 Each stage must choose methods that fit its question.
 
@@ -388,7 +406,7 @@ Method choice must be justified in `STAGE_EXECUTION.md`.
 
 ---
 
-## 15. Scenario discovery rules
+## 16. Scenario discovery rules
 
 Stages involving the future must not pretend to predict a single future.
 
@@ -408,7 +426,7 @@ Scenario work should produce useful conditions for curriculum derivation, not en
 
 ---
 
-## 16. Existing curriculum comparison rule
+## 17. Existing curriculum comparison rule
 
 Existing curricula, alternative schools, pedagogical models and assessment systems are relevant, but they must not anchor the project too early.
 
@@ -427,7 +445,7 @@ This protects the project from reproducing inherited structures by default.
 
 ---
 
-## 17. Human baseline rule
+## 18. Human baseline rule
 
 Stage 1 should identify minimum defensible assumptions, not create a total theory of human nature.
 
@@ -442,7 +460,7 @@ The baseline should be:
 
 ---
 
-## 18. Flourishing rule
+## 19. Flourishing rule
 
 Stage 2 must separate:
 
@@ -455,7 +473,7 @@ The project may adopt a working model of flourishing, but it must not pretend th
 
 ---
 
-## 19. Capability derivation rule
+## 20. Capability derivation rule
 
 Capabilities must be derived from enduring functions, not invented as attractive educational language.
 
@@ -470,7 +488,7 @@ A capability should have:
 
 ---
 
-## 20. Knowledge, experience and practice rule
+## 21. Knowledge, experience and practice rule
 
 Knowledge matters, but it should be justified by function and capability.
 
@@ -488,7 +506,7 @@ This does not mean abandoning traditional subjects. It means testing them agains
 
 ---
 
-## 21. Evidence of learning rule
+## 22. Evidence of learning rule
 
 Evidence of learning should not be reduced to exams or grades.
 
@@ -510,7 +528,7 @@ The model must also consider fairness, gaming risk, privacy and burden.
 
 ---
 
-## 22. Curriculum architecture rule
+## 23. Curriculum architecture rule
 
 Stage 10 may design the curriculum only from authorised upstream outputs.
 
@@ -530,7 +548,7 @@ Curriculum design should not exceed the support provided by earlier stages.
 
 ---
 
-## 23. Adversarial review
+## 24. Adversarial review
 
 Every stage must be attacked before it is passed forward.
 
@@ -549,7 +567,7 @@ Adversarial review should improve the work, not merely criticise it.
 
 ---
 
-## 24. Bias and generalisability audit
+## 25. Bias and generalisability audit
 
 The project should actively check for:
 
@@ -568,7 +586,7 @@ Not every bias can be eliminated, but important biases must be visible.
 
 ---
 
-## 25. Stage gate review
+## 26. Stage gate review
 
 A stage may pass only if:
 
@@ -591,7 +609,7 @@ A stage should be marked:
 
 ---
 
-## 26. Pass-forward protocol
+## 27. Pass-forward protocol
 
 The pass-forward file is the controlled interface between stages.
 
@@ -613,7 +631,7 @@ If a claim is not in the pass-forward file, the next stage should not treat it a
 
 ---
 
-## 27. Traceability
+## 28. Traceability
 
 The project must be able to trace:
 
@@ -630,7 +648,7 @@ Traceability does not need to be perfect in Version 0.1, but every major curricu
 
 ---
 
-## 28. Public summary rules
+## 29. Public summary rules
 
 Public summaries should be clear without becoming simplistic.
 
@@ -653,7 +671,7 @@ Avoid:
 
 ---
 
-## 29. Revision and rollback
+## 30. Revision and rollback
 
 A stage may need revision if:
 
@@ -668,7 +686,7 @@ Rollback is not failure. It is part of an honest engineering process.
 
 ---
 
-## 30. Versioning logic
+## 31. Versioning logic
 
 The project should distinguish:
 
@@ -683,41 +701,41 @@ Later versions should clearly state what changed and why.
 
 ---
 
-## 31. Anti-patterns
+## 32. Anti-patterns
 
 Avoid these recurring failure modes.
 
-### 31.1 Curriculum-first drift
+### 32.1 Curriculum-first drift
 
 Jumping to subjects, projects or lessons before the derivation chain authorises them.
 
-### 31.2 Agent theatre
+### 32.2 Agent theatre
 
 Creating many agent roles or files without improving output quality.
 
-### 31.3 Evidence laundering
+### 32.3 Evidence laundering
 
 Using a source to make a claim stronger than the source supports.
 
-### 31.4 Scenario storytelling
+### 32.4 Scenario storytelling
 
 Writing vivid futures without useful analytical structure.
 
-### 31.5 Values hiding
+### 32.5 Values hiding
 
 Presenting moral or philosophical choices as if they were purely empirical.
 
-### 31.6 Template overload
+### 32.6 Template overload
 
 Creating so many templates that agents spend more effort managing files than thinking.
 
-### 31.7 Public overclaiming
+### 32.7 Public overclaiming
 
 Presenting Version 0.1 as proven, revolutionary or complete.
 
 ---
 
-## 32. Definition of research quality
+## 33. Definition of research quality
 
 A high-quality stage output is:
 

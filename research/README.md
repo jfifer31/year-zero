@@ -2,6 +2,8 @@
 
 This folder is the navigation hub for the Year Zero Education research chain. Each stage folder contains a `STAGE_GUIDE.md` that defines the stage purpose, inputs, methods, outputs and pass-forward requirements.
 
+Agents read `AGENTS.md` for operating sequence, roles, harnesses and handoff discipline. All researchers follow `docs/RESEARCH_OPERATING_SYSTEM.md` for method, evidence standards, claim classification, uncertainty, stage gates and pass-forward rules.
+
 Do not treat these stages as loose topics. They are an engineered dependency chain designed to derive a Version 0.1 curriculum hypothesis from first principles.
 
 Canonical methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. Agent sequencing and role activation live in `AGENTS.md`.
