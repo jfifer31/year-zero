@@ -12,7 +12,9 @@
 
 **Date prepared:** 2026-06-17
 
-**Stage owner / Master Coordinator:** Codex, subject to human project-lead approval
+**Research started:** 2026-06-17, after Human Gate 1 approval and merge of PR #10
+
+**Stage owner / Master Coordinator:** Codex, under human project-lead gates
 
 **Workflow status:** `active`
 
@@ -289,9 +291,9 @@ Full research prompts will be summarised here before use. No separate prompt-log
 
 | Step | Task | Responsible agent | Output | Gate / status |
 |---|---|---|---|---|
-| 1 | Merge the approved setup PR | Project lead | Authorised execution files | Human Gate 1 |
-| 2 | Reconfirm latest `main`, scope and search date | Master Coordinator | Active execution state | Pending Gate 1 |
-| 3 | Run pilot searches in all six workstreams | Librarian + Methodologist | Coverage and query adjustments | Not started |
+| 1 | Merge the approved setup PR | Project lead | Authorised execution files | Completed — Human Gate 1 |
+| 2 | Reconfirm latest `main`, scope and search date | Master Coordinator | Active execution state | Completed |
+| 3 | Run pilot searches in all six workstreams | Librarian + Methodologist | Coverage and query adjustments | Active |
 | 4 | Discover, screen, deduplicate and log sources | Librarian + domain experts | Source records | Not started |
 | 5 | Extract and weight evidence | Domain experts | Evidence records | Not started |
 | 6 | Produce within-workstream syntheses | Domain experts + Synthesis Researcher | Draft report sections | Not started |
