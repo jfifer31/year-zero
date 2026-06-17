@@ -138,46 +138,9 @@ The goal is not to wait until certainty exists. The goal is to avoid pretending 
 
 ## 9. Research chain
 
-The research chain is the central structure of the project.
+The research chain is the central structure of the project: it moves from human foundations and AI-shaped future conditions into convergence, derivation, learning evidence, curriculum architecture and release readiness.
 
-### Human Stream
-
-**Stage 1 – Human Baseline**  
-Determine the most defensible assumptions about human beings that an educational framework must respect.
-
-**Stage 2 – Human Flourishing Model**  
-Use the human baseline to define what flourishing should mean for the purposes of this project.
-
-### AI / Future Stream
-
-**Stage 3 – AI Future Conditions Discovery**  
-Identify plausible future conditions created or intensified by AI without prematurely forcing them into fixed scenarios.
-
-### Convergence and Derivation
-
-**Stage 4 – Life Within Future Conditions**  
-Model what life may be like for young people and adults inside plausible future conditions.
-
-**Stage 5 – Human Invariants Analysis**  
-Identify what remains fundamentally human, valuable or unavoidable across futures.
-
-**Stage 6 – Enduring Human Functions**  
-Derive what humans must still do, decide, judge, create, coordinate, protect, experience or become.
-
-**Stage 7 – Capability Derivation**  
-Translate enduring human functions into developable capabilities.
-
-**Stage 8 – Knowledge, Experience and Practice Mapping**  
-Identify the knowledge, experiences and practices that can cultivate those capabilities.
-
-**Stage 9 – Evidence of Learning and Verification Architecture**  
-Define how learning, capability and transfer can be observed, demonstrated, reflected upon and eventually verified.
-
-**Stage 10 – Curriculum Architecture and Version 0.1 Design**  
-Build the first curriculum architecture from the previous stages.
-
-**Stage 11 – Verification, Falsification and Release Readiness**  
-Attack the full chain, classify weaknesses and prepare a responsible public release.
+The canonical phase sequence lives in [`ROADMAP.md`](ROADMAP.md). The stage navigation table and guide links live in [`research/README.md`](research/README.md). The dependency discipline, pass-forward principle and method rules live in [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md).
 
 ---
 
