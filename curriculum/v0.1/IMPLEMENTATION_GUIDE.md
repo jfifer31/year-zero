@@ -294,7 +294,7 @@ Use the minimum meaningful evidence model:
 5. reflection;
 6. next step.
 
-Keep evidence private unless there is a clear reason and consent to share.
+Keep evidence private by default and follow `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
@@ -346,18 +346,9 @@ Do not equate one kind of performance with capability.
 
 ## 15. Feedback to the project
 
-Implementation feedback should answer:
+Implementation feedback should use broad, anonymised summaries only: what was tried, broad age range, broad setting, what worked, what confused users and what should change.
 
-- What did you try?
-- Who used it? Use broad age range only.
-- What worked?
-- What was confusing?
-- What felt unrealistic?
-- What evidence of learning appeared?
-- What would improve the framework?
-- Did any safety or privacy concern appear?
-
-Use the GitHub implementation feedback issue template.
+Do not submit private learner data, learner work, images, videos or AI logs. Use the GitHub implementation feedback issue template and follow `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
@@ -378,16 +369,7 @@ Before using a module or project:
 
 ## 17. What to avoid
 
-Avoid:
-
-- high-stakes claims;
-- public ranking;
-- excessive portfolio burden;
-- AI outsourcing;
-- overcomplicated implementation;
-- adult overcontrol;
-- pretending uncertainty is solved;
-- using learner work as marketing without consent.
+Avoid high-stakes claims, public ranking, excessive portfolio burden, AI outsourcing, adult overcontrol and promotional use of learner work. Follow `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 

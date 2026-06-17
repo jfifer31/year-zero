@@ -231,13 +231,7 @@ The curriculum should define how AI tools may be used.
 
 AI use should strengthen human capability rather than replace the practice required to develop it.
 
-Potential principles:
-
-- AI may support inquiry, feedback, simulation and comparison.
-- AI should not remove the need for human judgement.
-- Learners should learn to question AI outputs.
-- AI use should not assume paid access.
-- AI logs involving minors should be treated as potentially sensitive.
+Potential principles: AI may support inquiry, feedback, simulation and comparison, but should not replace human judgement or assume paid access. Treat learner AI logs as sensitive and follow `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 Final wording must be authorised by Stage 8, Stage 9 and Stage 11.
 

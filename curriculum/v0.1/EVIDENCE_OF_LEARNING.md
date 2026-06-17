@@ -34,7 +34,7 @@ The model should avoid two extremes:
 |---|---|---|---|
 | E-001 | Evidence should be meaningful. | It should connect to real capability, not just task completion. | Evidence tasks must map to capabilities. |
 | E-002 | Evidence should be proportionate. | It should not create excessive burden. | Use lightweight artefacts where possible. |
-| E-003 | Evidence should protect privacy. | Learners are young people, not public proof points. | Default to private portfolios. |
+| E-003 | Evidence should protect privacy. | Learners are young people, not public proof points. | Default to private portfolios; see `docs/ETHICS_AND_PUBLIC_TESTING.md`. |
 | E-004 | Evidence should show growth. | Capability development takes time. | Include iteration and reflection. |
 | E-005 | Evidence should include transfer. | Future capability requires adaptation. | Include unfamiliar or applied contexts. |
 
@@ -203,18 +203,9 @@ AI should not:
 
 ## 13. Privacy rules
 
-Evidence should default to private.
+Evidence should default to private. Do not require, request or publish private learner data, learner work, images, videos or AI logs.
 
-Do not require public sharing of:
-
-- personal reflections;
-- AI logs;
-- family context;
-- emotional self-assessments;
-- images or videos;
-- sensitive identity information.
-
-See `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+Follow the full rules in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
