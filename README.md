@@ -86,28 +86,9 @@ This means the project is especially concerned with learners roughly aged 11–1
 
 ## Research chain
 
-The research chain has two streams that converge.
+The research chain moves from human foundations and AI-shaped future conditions through convergence, derivation, evidence of learning, curriculum architecture and release readiness.
 
-```text
-Human Stream
-Stage 1 – Human Baseline
-Stage 2 – Human Flourishing Model
-
-AI / Future Stream
-Stage 3 – AI Future Conditions Discovery
-
-Convergence and Derivation
-Stage 4 – Life Within Future Conditions
-Stage 5 – Human Invariants Analysis
-Stage 6 – Enduring Human Functions
-Stage 7 – Capability Derivation
-Stage 8 – Knowledge, Experience and Practice Mapping
-Stage 9 – Evidence of Learning and Verification Architecture
-Stage 10 – Curriculum Architecture and Version 0.1 Design
-Stage 11 – Verification, Falsification and Release Readiness
-```
-
-The chain is deliberately sequential. Later stages may only rely on what earlier stages explicitly pass forward.
+For the human-readable phase sequence, see [`ROADMAP.md`](ROADMAP.md). For the research navigation table and stage guide links, see [`research/README.md`](research/README.md). For dependency discipline, pass-forward rules and method requirements, see [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md).
 
 ---
 
@@ -115,9 +96,9 @@ The chain is deliberately sequential. Later stages may only rely on what earlier
 
 | Reader | Start here | Then read |
 |---|---|---|
-| AI agent / Codex executor | `AGENTS.md` | `docs/RESEARCH_OPERATING_SYSTEM.md`, then the relevant `research/stage-XX/STAGE_GUIDE.md` |
-| Project lead | `PROJECT_CHARTER.md` | `ROADMAP.md`, `research/README.md` |
-| Research contributor | `CONTRIBUTING.md` | `docs/RESEARCH_OPERATING_SYSTEM.md`, relevant stage guide |
+| AI agent / Codex executor | `AGENTS.md` | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), then the relevant `research/stage-XX/STAGE_GUIDE.md` |
+| Project lead | `PROJECT_CHARTER.md` | [`ROADMAP.md`](ROADMAP.md), [`research/README.md`](research/README.md) |
+| Research contributor | `CONTRIBUTING.md` | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), relevant stage guide |
 | Parent or educator | `public/README.md` | `public/PUBLIC_FAQ.md`, later `curriculum/v0.1/IMPLEMENTATION_GUIDE.md` |
 | Learner | `public/README.md` | later `curriculum/v0.1/LEARNER` section inside `IMPLEMENTATION_GUIDE.md` |
 | Public follower | `public/PUBLIC_FAQ.md` | `public/CONTENT_STRATEGY.md` |

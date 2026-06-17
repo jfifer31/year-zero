@@ -118,21 +118,9 @@ Version 0.1 will not be “proven” in the sense of demonstrated educational im
 
 ## 12. How does the research process work?
 
-The project follows eleven stages:
+The project follows an eleven-stage research chain from human foundations and AI-shaped future conditions through curriculum architecture and release readiness. Each stage produces a report, review, ledger, pass-forward memo and public summary.
 
-1. Human Baseline
-2. Human Flourishing Model
-3. AI Future Conditions Discovery
-4. Life Within Future Conditions
-5. Human Invariants Analysis
-6. Enduring Human Functions
-7. Capability Derivation
-8. Knowledge, Experience and Practice Mapping
-9. Evidence of Learning and Verification Architecture
-10. Curriculum Architecture and Version 0.1 Design
-11. Verification, Falsification and Release Readiness
-
-Each stage produces a report, review, ledger, pass-forward memo and public summary.
+For the phase sequence, read [`ROADMAP.md`](../ROADMAP.md). For the stage navigation table and guide links, read [`research/README.md`](../research/README.md). For dependency discipline and method rules, read [`docs/RESEARCH_OPERATING_SYSTEM.md`](../docs/RESEARCH_OPERATING_SYSTEM.md).
 
 ---
 
@@ -231,8 +219,8 @@ If you are new:
 If you want the serious project logic:
 
 1. `PROJECT_CHARTER.md`
-2. `docs/RESEARCH_OPERATING_SYSTEM.md`
-3. `research/README.md`
+2. [`docs/RESEARCH_OPERATING_SYSTEM.md`](../docs/RESEARCH_OPERATING_SYSTEM.md)
+3. [`research/README.md`](../research/README.md)
 
 If you want to contribute:
 
