@@ -86,38 +86,17 @@ A strong challenge should include:
 
 Use the implementation feedback issue template.
 
-Useful implementation feedback should include:
+Useful implementation feedback should include what was tried, broad age range, broad setting, what worked, what confused users and what should change.
 
-- context of use;
-- approximate learner age range;
-- whether the setting was home, school, alternative provision, informal or online;
-- what was attempted;
-- what worked;
-- what failed or confused users;
-- what evidence was observed;
-- what should change.
-
-Do not include private learner information.
+Do not include private learner information, learner work, images, videos or AI logs. Follow the full safety rules in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
 ## 7. Privacy and child-safety rules
 
-Do not submit:
+Do not submit private learner data or anything that could identify, expose, rank, shame or promote a learner. Use broad, anonymised summaries only.
 
-- full names of minors;
-- addresses;
-- private learner reflections;
-- medical or mental health details;
-- images or videos of learners;
-- unredacted AI chat logs from minors;
-- sensitive family information;
-- school records;
-- anything a young person may later regret being public.
-
-If learner work is discussed, describe it generally or anonymise it carefully.
-
-Detailed safety rules are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+Detailed safeguarding, privacy, consent/assent, learner-data, AI-log, public-testing and promotional-use rules are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 

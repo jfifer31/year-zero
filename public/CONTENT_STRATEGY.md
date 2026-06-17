@@ -18,6 +18,8 @@ Public communication should help people understand:
 - what remains uncertain;
 - why public critique is welcome.
 
+Public communication must not request or publish private learner data, learner work, images, videos or AI logs. Follow `docs/ETHICS_AND_PUBLIC_TESTING.md` for safeguarding, privacy, public-testing and promotional-use rules.
+
 ---
 
 ## 2. Tone

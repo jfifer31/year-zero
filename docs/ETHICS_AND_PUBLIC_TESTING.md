@@ -117,7 +117,29 @@ For most purposes, summarise patterns rather than publishing logs.
 
 ---
 
-## 8. Early testing levels
+## 8. Learner data and records
+
+Treat learner data as sensitive by default, even when it appears ordinary or educational.
+
+Learner data includes:
+
+- names, contact details or account handles;
+- precise ages or dates of birth;
+- school, club or location identifiers;
+- attendance, assessment or progress records;
+- portfolio artefacts linked to an identifiable learner;
+- personal reflections, goals, fears or family context;
+- accessibility, disability, health or wellbeing information;
+- AI prompts, outputs, uploaded files, screenshots or transcripts;
+- metadata that could identify a learner through context.
+
+The project must not ask public contributors to submit private learner data. If feedback depends on learner experience, request broad, anonymised observations only.
+
+Before any non-public collection of learner data, there must be a clear purpose, minimised data fields, access limits, retention expectations, deletion route and consent/assent process.
+
+---
+
+## 9. Early testing levels
 
 The project should distinguish levels of testing.
 
@@ -145,7 +167,7 @@ Version 0.1 should begin at Level 0–2 unless a formal testing process is estab
 
 ---
 
-## 9. Public testing claims
+## 10. Public testing claims
 
 The project may say:
 
@@ -162,7 +184,7 @@ The project must not say:
 
 ---
 
-## 10. Safeguarding boundaries
+## 11. Safeguarding boundaries
 
 The project should avoid direct unsupervised interaction with minors unless a proper safeguarding structure exists.
 
@@ -177,7 +199,7 @@ If community spaces are created, they should have:
 
 ---
 
-## 11. Emotional and psychological safety
+## 12. Emotional and psychological safety
 
 Some Year Zero topics may involve identity, future anxiety, social comparison, capability, failure, agency or meaning.
 
@@ -194,7 +216,7 @@ Learning should develop agency, not anxiety.
 
 ---
 
-## 12. Equity and access
+## 13. Equity and access
 
 The project should not assume all learners have:
 
@@ -213,7 +235,7 @@ Implementation guides should include low-resource and low-tech alternatives wher
 
 ---
 
-## 13. Neurodiversity and individual variation
+## 14. Neurodiversity and individual variation
 
 The curriculum should not treat one learner profile as normal and all others as exceptions.
 
@@ -233,7 +255,7 @@ Where the project lacks expertise, it should state uncertainty rather than overc
 
 ---
 
-## 14. Cultural and family pluralism
+## 15. Cultural and family pluralism
 
 The project should recognise that families and communities differ in values, beliefs, resources and educational aims.
 
@@ -243,7 +265,7 @@ Where normative judgements are made, they should be explicit and open to challen
 
 ---
 
-## 15. Use in schools and alternative provision
+## 16. Use in schools and alternative provision
 
 If used by schools, tutors, clubs, home educators or alternative provision settings, implementers should consider:
 
@@ -260,7 +282,7 @@ The project should not encourage institutions to bypass their duties.
 
 ---
 
-## 16. Portfolio and evidence privacy
+## 17. Portfolio and evidence privacy
 
 Evidence of learning can become sensitive because it may include:
 
@@ -277,7 +299,7 @@ Portfolio systems should default to private ownership by the learner and family 
 
 ---
 
-## 17. Data minimisation
+## 18. Data minimisation
 
 Collect the least data needed.
 
@@ -292,7 +314,7 @@ Before collecting any data, ask:
 
 ---
 
-## 18. Implementation feedback privacy
+## 19. Implementation feedback privacy
 
 When collecting feedback from parents, educators or learners, prefer:
 
@@ -305,7 +327,23 @@ When collecting feedback from parents, educators or learners, prefer:
 
 ---
 
-## 19. Commercial and reputational boundaries
+## 20. Promotional use and public storytelling
+
+Do not use identifiable learners, learner work, learner images, learner videos, private reflections, AI logs or outcome stories as promotional proof unless a specific ethics review has approved the use and consent/assent is current, informed and withdrawable.
+
+Promotional and public narrative materials should prefer:
+
+- synthetic examples;
+- fictionalised composites that cannot be traced to a learner;
+- anonymised aggregate observations;
+- adult-created demonstrations;
+- screenshots or artefacts with all learner data removed.
+
+Do not imply that a learner's participation, portfolio quality or public visibility proves the curriculum works. Do not make public sharing a condition of participation, feedback or recognition.
+
+---
+
+## 21. Commercial and reputational boundaries
 
 If the project later develops partnerships, funding, services or paid support, it must preserve trust by making clear:
 
@@ -320,7 +358,7 @@ Public trust is easier to lose than regain.
 
 ---
 
-## 20. Ethical review before public release
+## 22. Ethical review before public release
 
 Before Version 0.1 is released, run an ethics review covering:
 
@@ -339,7 +377,7 @@ The review should be recorded in Stage 11.
 
 ---
 
-## 21. Red flags requiring revision
+## 23. Red flags requiring revision
 
 Pause or revise if the project:
 
@@ -354,7 +392,7 @@ Pause or revise if the project:
 
 ---
 
-## 22. Public communication standard
+## 24. Public communication standard
 
 Public communication should be:
 
@@ -371,7 +409,7 @@ Do not use young people’s futures as marketing drama.
 
 ---
 
-## 23. Minimal safe feedback form
+## 25. Minimal safe feedback form
 
 A safe early feedback form should ask only:
 
@@ -386,7 +424,7 @@ A safe early feedback form should ask only:
 
 ---
 
-## 24. Ethics checklist for agents
+## 26. Ethics checklist for agents
 
 Before producing implementation or public-facing outputs, agents should check:
 
@@ -403,7 +441,7 @@ If yes, revise or flag for human review.
 
 ---
 
-## 25. Final ethical stance
+## 27. Final ethical stance
 
 The project should be ambitious about education and conservative about harm.
 

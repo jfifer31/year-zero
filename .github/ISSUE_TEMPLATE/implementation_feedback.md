@@ -9,7 +9,7 @@ body:
       value: |
         Use this template to report practical feedback from using, reviewing or testing Year Zero Education materials.
 
-        Please do not include personally identifying learner information, private reflections, images, videos, school records or unredacted AI logs.
+        Please use broad, anonymised summaries only. Do not include private learner data, learner work, images, videos, school records or AI logs. See `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
   - type: dropdown
     id: role
@@ -17,7 +17,7 @@ body:
       label: Your role
       options:
         - Parent / home educator
-        - Learner
+        - Learner with adult support
         - Teacher / educator
         - Mentor / facilitator
         - Alternative provision practitioner
@@ -89,9 +89,9 @@ body:
   - type: textarea
     id: evidence_observed
     attributes:
-      label: What evidence of learning or engagement did you observe?
-      description: Keep this general and anonymised.
-      placeholder: "The learner was able to..., the group produced..., the reflection showed..."
+      label: What general signs of learning or engagement did you observe?
+      description: Keep this broad and anonymised. Do not quote private learner reflections or submit learner work.
+      placeholder: "In general terms, learners were able to..., the group produced..., participants seemed..."
     validations:
       required: false
 
@@ -144,7 +144,7 @@ body:
           required: true
         - label: I have not included images or videos of minors.
           required: true
-        - label: I have not included unredacted AI logs from a learner.
+        - label: I have not included AI logs from a learner.
           required: true
         - label: I understand this feedback may be discussed publicly in anonymised or summarised form.
           required: true
