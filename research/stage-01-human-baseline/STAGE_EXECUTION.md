@@ -14,7 +14,7 @@
 
 **Stage owner / Master Coordinator:** Codex, subject to human project-lead approval
 
-**Workflow status:** `draft`
+**Workflow status:** `active`
 
 ## 2. Stage objective
 
@@ -347,8 +347,8 @@ Before the final Stage 1 PR may pass:
 
 ## 15. Start decision
 
-**Start decision:** `revise_before_start`
+**Start decision:** `approved`
 
 **Reason:**
 
-> The execution plan and six canonical scaffolds are ready for Human Gate 1 review. Research, source discovery and evidence logging remain unauthorised until the project lead approves this plan, changes the decision to `approved`, and merges the setup PR.
+> Human Gate 1 was approved by the project lead on 2026-06-17. Research may begin only after the setup PR is merged into `main`.
