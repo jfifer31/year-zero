@@ -181,32 +181,15 @@ Attack the full chain, classify weaknesses and prepare a responsible public rele
 
 ---
 
-## 10. Claim discipline
+## 10. Research discipline
 
-The project separates four kinds of claim.
+The project depends on disciplined handling of evidence, claims, uncertainty and stage handoffs. No agent or contributor may present empirical findings, working assumptions, normative judgements or speculative projections as if they were the same kind of claim. Later stages may only rely on what earlier stages explicitly pass forward.
 
-| Claim type | Meaning | Required handling |
-|---|---|---|
-| Empirical Finding | A claim supported by evidence. | Cite source, state confidence, record limits. |
-| Working Assumption | A provisional claim used to proceed. | Label clearly, record alternatives, identify revision triggers. |
-| Normative Judgement | A claim about what should matter. | Explain value basis and trade-offs. |
-| Speculative Projection | A future-facing possibility. | Link to drivers, uncertainty and signposts. |
-
-No agent or contributor may present one claim type as another.
+The canonical rules for methodology, evidence, claim discipline, uncertainty, pass-forward control, adversarial review and stage gates are in `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ---
 
-## 11. Pass-forward principle
-
-Each stage must produce a pass-forward memo that states what later stages may use.
-
-Later stages may not freely reinterpret earlier outputs. They may only rely on what has been explicitly passed forward, including stated uncertainties and limitations.
-
-This protects the project from hidden drift.
-
----
-
-## 12. Public release principle
+## 11. Public release principle
 
 The project should be publicly understandable without being intellectually weakened.
 
@@ -222,25 +205,17 @@ Public materials should:
 
 ---
 
-## 13. Ethical commitments
+## 12. Ethical commitments
 
 The project must be especially careful because it concerns young people.
 
-It must:
+It must avoid exposing private learner data, publicising sensitive learner reflections, claiming proven impact without evidence, treating children as experimental subjects without safeguards, encouraging people to abandon statutory obligations or obscuring the experimental status of Version 0.1.
 
-- avoid exposing private learner data;
-- avoid publicising sensitive learner reflections;
-- avoid claiming proven impact without evidence;
-- avoid treating children as experimental subjects without appropriate safeguards;
-- avoid encouraging parents or learners to abandon statutory obligations;
-- make experimental status clear;
-- design for privacy and dignity from the start.
-
-Detailed rules are defined in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+The canonical rules for safeguarding, learner privacy, consent/assent, public testing, AI logs and learner data are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 
-## 14. Definition of a successful Version 0.1
+## 13. Definition of a successful Version 0.1
 
 Version 0.1 succeeds if it is:
 
@@ -257,7 +232,7 @@ It does not need to solve education. It needs to create the first serious, publi
 
 ---
 
-## 15. Current project status
+## 14. Current project status
 
 The project is in **Stage 0: Foundation**.
 

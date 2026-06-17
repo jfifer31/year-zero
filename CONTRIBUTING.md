@@ -39,36 +39,11 @@ When contributing, identify the type of contribution.
 
 ---
 
-## 3. Evidence expectations
+## 3. Evidence and claim expectations
 
-A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides.
+A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides. Do not present anecdote as proof; describe practical experience as experience.
 
-Evidence may include:
-
-- peer-reviewed research;
-- official reports;
-- high-quality books or reviews;
-- practitioner evidence;
-- implementation observation;
-- learner or parent feedback;
-- reasoned critique;
-- technical analysis;
-- public communication feedback.
-
-Contributors should not present anecdote as proof. Practical experience is valuable, but it should be described as experience, not universal evidence.
-
----
-
-## 4. Claim discipline
-
-If your contribution affects a claim, identify whether the claim is:
-
-- an empirical finding;
-- a working assumption;
-- a normative judgement;
-- a speculative projection.
-
-The project’s claim rules are defined in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+If your contribution affects a claim, identify whether it concerns an empirical finding, working assumption, normative judgement or speculative projection. The canonical rules for methodology, evidence handling, claim discipline, uncertainty and pass-forward control are in `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ---
 
@@ -108,21 +83,9 @@ Do not include private learner information.
 
 ## 7. Privacy and child-safety rules
 
-Do not submit:
+Do not submit private or identifying learner information, including names, addresses, sensitive reflections, medical or mental health details, images, videos, school records, sensitive family information or unredacted AI logs. Discuss learner work only through careful anonymised summaries unless a proper consent, assent and safeguarding process exists.
 
-- full names of minors;
-- addresses;
-- private learner reflections;
-- medical or mental health details;
-- images or videos of learners;
-- unredacted AI chat logs from minors;
-- sensitive family information;
-- school records;
-- anything a young person may later regret being public.
-
-If learner work is discussed, describe it generally or anonymise it carefully.
-
-Detailed safety rules are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+The canonical rules for safeguarding, learner privacy, consent/assent, public testing, AI logs and learner data are in `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 
 ---
 

@@ -1,10 +1,10 @@
 # Research Stages
 
-This folder contains the full Year Zero Education research chain.
-
-Each stage is a standalone research project with a defined purpose, inputs, methods, outputs and pass-forward requirements.
+This folder is the navigation hub for the Year Zero Education research chain. Each stage folder contains a `STAGE_GUIDE.md` that defines the stage purpose, inputs, methods, outputs and pass-forward requirements.
 
 Do not treat these stages as loose topics. They are an engineered dependency chain designed to derive a Version 0.1 curriculum hypothesis from first principles.
+
+Canonical methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. Agent sequencing and role activation live in `AGENTS.md`.
 
 ---
 
@@ -26,79 +26,26 @@ Do not treat these stages as loose topics. They are an engineered dependency cha
 
 ---
 
-## Dependency structure
-
-```text
-Stage 1 – Human Baseline
-      ↓
-Stage 2 – Human Flourishing Model
-
-Stage 3 – AI Future Conditions Discovery
-
-Stages 1, 2 and 3 converge at:
-      ↓
-Stage 4 – Life Within Future Conditions
-      ↓
-Stage 5 – Human Invariants Analysis
-      ↓
-Stage 6 – Enduring Human Functions
-      ↓
-Stage 7 – Capability Derivation
-      ↓
-Stage 8 – Knowledge, Experience and Practice Mapping
-      ↓
-Stage 9 – Evidence of Learning and Verification Architecture
-      ↓
-Stage 10 – Curriculum Architecture and Version 0.1 Design
-      ↓
-Stage 11 – Verification, Falsification and Release Readiness
-```
+## Dependency note
 
 Stage 1 and Stage 3 may be researched in parallel if their outputs are kept separate. Stage 4 must not begin until Stages 1, 2 and 3 have produced pass-forward outputs.
+
+For the full dependency model, required stage files, ledger system, evidence standards, adversarial review process, gate criteria and pass-forward rules, use `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ---
 
 ## How to run a stage
 
-For each stage:
-
 1. Read `AGENTS.md`.
 2. Read `docs/RESEARCH_OPERATING_SYSTEM.md`.
-3. Read the relevant `STAGE_GUIDE.md`.
-4. Copy templates from `/templates/` into the stage folder.
-5. Create:
+3. Read the relevant stage `STAGE_GUIDE.md`.
+4. Copy the required templates from `/templates/` into the stage folder.
+5. Produce the required stage outputs and complete review before passing anything forward.
 
-```text
-STAGE_EXECUTION.md
-STAGE_LEDGER.csv
-STAGE_REPORT.md
-STAGE_REVIEW.md
-PASS_FORWARD.md
-PUBLIC_SUMMARY.md
-```
-
-6. Run the stage using the required agents and methods.
-7. Complete adversarial review.
-8. Pass forward only authorised claims, assumptions and uncertainties.
-
----
-
-## Stage completion rule
-
-A stage is complete only when it has produced:
-
-- a technical report;
-- a ledger of sources, claims, assumptions, uncertainties, risks and decisions;
-- a review file;
-- a pass-forward file;
-- a public summary.
-
-Interesting research without a pass-forward file does not count as a completed stage.
+The required output names are defined canonically in `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ---
 
 ## Curriculum design warning
 
-Curriculum architecture begins at Stage 10.
-
-Earlier stages may identify implications for curriculum design, but they must not design the curriculum prematurely.
+Curriculum architecture begins at Stage 10. Earlier stages may identify implications for curriculum design, but they must not design the curriculum prematurely.
