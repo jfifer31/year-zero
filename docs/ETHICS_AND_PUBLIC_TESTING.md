@@ -36,7 +36,7 @@ This file applies to:
 
 ## 3. Status of Version 0.1
 
-Version 0.1 is a curriculum hypothesis.
+**Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.**
 
 It must not be described as:
 

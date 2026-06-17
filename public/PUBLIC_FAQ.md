@@ -30,7 +30,7 @@ It is an open-source curriculum research project.
 
 No.
 
-The first public release will be **Version 0.1**, which means it is a curriculum hypothesis.
+The first public release will be **Version 0.1**. **Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.**
 
 It should be used cautiously, criticised seriously and improved over time.
 
@@ -112,7 +112,7 @@ The project is evidence-disciplined.
 
 That means it uses evidence where available, labels assumptions where evidence is incomplete, and separates values from empirical findings.
 
-Version 0.1 will not be “proven” in the sense of demonstrated educational impact. It should be treated as a traceable research-derived hypothesis.
+**Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.** It should be treated as a traceable research-derived hypothesis.
 
 ---
 

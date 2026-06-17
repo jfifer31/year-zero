@@ -2,7 +2,7 @@
 
 This folder will contain the first public curriculum hypothesis produced by the Year Zero Education research chain.
 
-Version 0.1 is not a final curriculum and must not be described as proven. It is the first coherent, traceable, open-source curriculum architecture generated from the project’s research process.
+**Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.** It is not a final curriculum. It is the first coherent, traceable, open-source curriculum architecture generated from the project’s research process.
 
 ---
 
