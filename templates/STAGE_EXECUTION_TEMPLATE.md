@@ -181,18 +181,7 @@ Define what will not be used as evidence.
 
 Create `STAGE_LEDGER.csv` using `templates/STAGE_LEDGER_TEMPLATE.csv`.
 
-Use the following `record_type` values:
-
-- `source`
-- `evidence`
-- `claim`
-- `assumption`
-- `uncertainty`
-- `decision`
-- `risk`
-- `traceability`
-- `challenge`
-- `revision_trigger`
+Use the canonical `record_type` values defined in `docs/RESEARCH_OPERATING_SYSTEM.md`; do not invent stage-specific alternatives without recording the reason.
 
 ### 9.1 Minimum ledger expectations
 

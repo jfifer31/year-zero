@@ -165,16 +165,9 @@ The final repository is organised into a small number of functional areas.
 
 ## Core research discipline
 
-Every important claim must be classified.
+Every important claim must be classified and handled according to the canonical taxonomy, evidence standards, confidence language, uncertainty rules, pass-forward discipline and adversarial review rules in `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
-| Claim type | Meaning |
-|---|---|
-| Empirical Finding | A claim supported by evidence. |
-| Working Assumption | A claim adopted to allow modelling or design to proceed. |
-| Normative Judgement | A value-based claim about what should matter. |
-| Speculative Projection | A future-facing claim about plausible conditions. |
-
-The project should never hide which kind of claim it is making.
+This README intentionally keeps the rule short: the operating detail lives in one place so agents and contributors do not work from diverging summaries.
 
 ---
 
