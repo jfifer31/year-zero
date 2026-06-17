@@ -6,7 +6,7 @@ The guiding question is:
 
 > What should young people learn, experience, practise and demonstrate in order to become flourishing, capable and adaptive adults in a world increasingly shaped by artificial intelligence and abundant access to intelligence?
 
-The first public output will be **Version 0.1**: a curriculum hypothesis for KS3–KS4 learners, with a KS3-first initial release. It will not claim to be proven. It will be a transparent, auditable starting point for public critique, practical testing and iterative improvement.
+The first public output will be **Version 0.1**: a curriculum hypothesis for KS3–KS4 learners, with a KS3-first initial release. **Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.** It will be a transparent, auditable starting point for public critique, practical testing and iterative improvement.
 
 ---
 
@@ -47,28 +47,22 @@ The first release is intentionally labelled **Version 0.1** because it should be
 
 ## Research chain
 
-The project works through a staged research chain before curriculum design begins. The short sequence is:
+The research chain moves from human foundations and AI-shaped future conditions through convergence, derivation, evidence of learning, curriculum architecture and release readiness.
 
-```text
-Human Baseline
-→ Human Flourishing
-→ AI Future Conditions
-→ Life Within Future Conditions
-→ Human Invariants
-→ Enduring Human Functions
-→ Capabilities
-→ Knowledge, Experience and Practice
-→ Evidence of Learning
-→ Curriculum Architecture
-→ Verification and Release
-```
+For the human-readable phase sequence, see [`ROADMAP.md`](ROADMAP.md). For the research navigation table and stage guide links, see [`research/README.md`](research/README.md). For dependency discipline, pass-forward rules and method requirements, see [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md).
 
-Canonical references:
+---
 
-- Project phases and stage sequence: `ROADMAP.md`.
-- Stage navigation and guide links: `research/README.md`.
-- Methodology, evidence, claim discipline, uncertainty, pass-forward rules, adversarial review and stage gates: `docs/RESEARCH_OPERATING_SYSTEM.md`.
-- Agent sequencing and role activation: `AGENTS.md`.
+## How to use this repository
+
+| Reader | Start here | Then read |
+|---|---|---|
+| AI agent / Codex executor | `AGENTS.md` | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), then the relevant `research/stage-XX/STAGE_GUIDE.md` |
+| Project lead | `PROJECT_CHARTER.md` | [`ROADMAP.md`](ROADMAP.md), [`research/README.md`](research/README.md) |
+| Research contributor | `CONTRIBUTING.md` | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), relevant stage guide |
+| Parent or educator | `public/README.md` | `public/PUBLIC_FAQ.md`, later `curriculum/v0.1/IMPLEMENTATION_GUIDE.md` |
+| Learner | `public/README.md` | later `curriculum/v0.1/LEARNER` section inside `IMPLEMENTATION_GUIDE.md` |
+| Public follower | `public/PUBLIC_FAQ.md` | `public/CONTENT_STRATEGY.md` |
 
 ---
 
@@ -89,7 +83,13 @@ Canonical references:
   .github/
 ```
 
-For detailed file-purpose guidance, see `FILE_STRUCTURE.md` where present and the README in each major folder.
+---
+
+## Core research discipline
+
+Every important claim must be classified and handled according to the canonical taxonomy, evidence standards, confidence language, uncertainty rules, pass-forward discipline and adversarial review rules in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+
+This README intentionally keeps the rule short: the operating detail lives in one place so agents and contributors do not work from diverging summaries.
 
 ---
 

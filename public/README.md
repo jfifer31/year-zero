@@ -16,7 +16,7 @@ Year Zero Education is trying to build a first public version of a future-facing
 
 The project does not begin with existing subjects and ask how to update them. It begins with human life, flourishing and plausible AI-shaped futures, then works forward toward capabilities, learning experiences and evidence of learning.
 
-The first output will be **Version 0.1**: a curriculum hypothesis that can be used, criticised, tested and improved.
+The first output will be **Version 0.1**: a curriculum hypothesis that can be used, criticised, tested and improved. **Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.**
 
 ---
 

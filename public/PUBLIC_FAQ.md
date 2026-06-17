@@ -10,7 +10,29 @@ For the full mission, scope, values and success definition, read `PROJECT_CHARTE
 
 ## 2. Why is it called Year Zero?
 
-The name signals a first-principles reset. It does not mean ignoring the past or dismissing existing education. It means temporarily stepping back from inherited assumptions and asking what education should be if we were designing it from the ground up for the Intelligence Era.
+The name signals a first-principles reset.
+
+It does not mean ignoring the past or dismissing existing education. It means temporarily stepping back from inherited assumptions and asking what education should be if we were designing it from the ground up for the Intelligence Era.
+
+---
+
+## 3. Is this a school?
+
+No.
+
+Year Zero Education is not a school, academy, tutoring service or formal education provider.
+
+It is an open-source curriculum research project.
+
+---
+
+## 4. Is this a finished curriculum?
+
+No.
+
+The first public release will be **Version 0.1**. **Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.**
+
+It should be used cautiously, criticised seriously and improved over time.
 
 ---
 
@@ -64,15 +86,9 @@ Learners should also practise checking AI outputs, making their own judgements, 
 
 The project is evidence-disciplined: it uses evidence where available, labels assumptions where evidence is incomplete and separates values from empirical findings.
 
-Version 0.1 will not be “proven” in the sense of demonstrated educational impact. For methodology, evidence, claim discipline, uncertainty, pass-forward rules, adversarial review and stage gates, read `docs/RESEARCH_OPERATING_SYSTEM.md`.
+That means it uses evidence where available, labels assumptions where evidence is incomplete, and separates values from empirical findings.
 
----
-
-## 10. How does the research process work?
-
-The project follows eleven stages from Human Baseline through Verification, Falsification and Release Readiness.
-
-For the canonical project phases and stage sequence, read `ROADMAP.md`. For stage navigation and guide links, read `research/README.md`.
+**Version 0.1 is a curriculum hypothesis, not evidence of proven effectiveness.** It should be treated as a traceable research-derived hypothesis.
 
 ---
 
@@ -122,9 +138,19 @@ It does not need to be perfect. It needs to be clear, honest, useful and improva
 
 ---
 
-## 17. What should I read first?
+## 17. How does the research process work?
 
-If you are new: `README.md`, `public/README.md`, then this FAQ.
+The project follows an eleven-stage research chain from human foundations and AI-shaped future conditions through curriculum architecture and release readiness. Each stage produces a report, review, ledger, pass-forward memo and public summary.
+
+For the phase sequence, read [`ROADMAP.md`](../ROADMAP.md). For the stage navigation table and guide links, read [`research/README.md`](../research/README.md). For dependency discipline and method rules, read [`docs/RESEARCH_OPERATING_SYSTEM.md`](../docs/RESEARCH_OPERATING_SYSTEM.md).
+
+---
+
+## 18. What should I read first?
+
+1. `PROJECT_CHARTER.md`
+2. [`docs/RESEARCH_OPERATING_SYSTEM.md`](../docs/RESEARCH_OPERATING_SYSTEM.md)
+3. [`research/README.md`](../research/README.md)
 
 If you want the serious project logic: `PROJECT_CHARTER.md`, `ROADMAP.md`, `docs/RESEARCH_OPERATING_SYSTEM.md` and `research/README.md`.
 

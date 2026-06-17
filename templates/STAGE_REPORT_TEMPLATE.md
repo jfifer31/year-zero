@@ -77,13 +77,13 @@ Refer to `STAGE_LEDGER.csv` for the full source and evidence log.
 
 ## 6. Main findings
 
-Each finding should identify its claim type and confidence.
+Each finding should identify its claim type, confidence and ledger reference using the canonical rules in `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
 ### Finding 1 — [Title]
 
-**Claim type:** `empirical_finding | working_assumption | normative_judgement | speculative_projection | design_decision`  
-**Confidence:** `high | moderate | low | open`  
-**Evidence weight:** `anchor | supporting | contextual | illustrative | non_decision`  
+**Claim type:**
+**Confidence:**
+**Evidence weight:**
 **Ledger reference(s):**  
 
 **Finding:**
@@ -107,9 +107,9 @@ Each finding should identify its claim type and confidence.
 
 ### Finding 2 — [Title]
 
-**Claim type:**  
-**Confidence:**  
-**Evidence weight:**  
+**Claim type:**
+**Confidence:**
+**Evidence weight:**
 **Ledger reference(s):**  
 
 **Finding:**
@@ -132,9 +132,9 @@ Each finding should identify its claim type and confidence.
 
 ### Finding 3 — [Title]
 
-**Claim type:**  
-**Confidence:**  
-**Evidence weight:**  
+**Claim type:**
+**Confidence:**
+**Evidence weight:**
 **Ledger reference(s):**  
 
 **Finding:**

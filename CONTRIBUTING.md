@@ -43,7 +43,27 @@ When contributing, identify the type of contribution.
 
 A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides. Do not present anecdote as proof; describe practical experience as experience.
 
-If your contribution affects a claim, identify whether it concerns an empirical finding, working assumption, normative judgement or speculative projection. The canonical rules for methodology, evidence handling, claim discipline, uncertainty and pass-forward control are in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+Evidence may include:
+
+- peer-reviewed research;
+- official reports;
+- high-quality books or reviews;
+- practitioner evidence;
+- implementation observation;
+- learner or parent feedback;
+- reasoned critique;
+- technical analysis;
+- public communication feedback.
+
+Contributors should not present anecdote as proof. Practical experience is valuable, but it should be described as experience, not universal evidence.
+
+---
+
+## 4. Claim discipline
+
+If your contribution affects a claim, identify the claim type and whether your change affects evidence, confidence, uncertainty, downstream use or revision triggers.
+
+Use the full claim taxonomy and handling rules in `docs/RESEARCH_OPERATING_SYSTEM.md`; this file does not duplicate them.
 
 ---
 
