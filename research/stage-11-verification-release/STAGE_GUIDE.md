@@ -57,7 +57,7 @@ The Master Coordinator should call the smallest sufficient team, but this stage 
 - Adversarial Red Team Agent
 - Evidence Auditor
 - Bias and Generalisability Auditor
-- Ethics Safeguarding and Privacy Expert
+- Ethics, Safeguarding and Privacy Expert
 - Implementation Test Agent
 - Release Manager
 - Public Narrative Strategist
@@ -121,7 +121,7 @@ This stage should produce:
 - Version 0.2 Backlog;
 - Stage 11 Public Summary;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files and the authorised release package, not additional stage files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

@@ -117,7 +117,7 @@ This stage should produce:
 - Function-to-Invariant Traceability;
 - Stage 6 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

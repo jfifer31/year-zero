@@ -8,38 +8,13 @@ The project uses semantic release language for public versions where possible, b
 
 ## Unreleased
 
-### Added
-
-- Top-level orientation files.
-- Agent operating manual.
-- Research operating system plan.
-- Stage guide structure.
-- Template structure.
-- Curriculum Version 0.1 release container.
-- Public communication container.
-- Contribution pathway.
-
-### Changed
-
-- Reduced filebase complexity by merging overlapping files into canonical sources of truth.
-- Combined agent harness instructions into `AGENTS.md`.
-- Planned consolidation of methodology, evidence, claims, uncertainty and pass-forward rules into `docs/RESEARCH_OPERATING_SYSTEM.md`.
-- Planned consolidation of public testing, privacy and safeguarding rules into `docs/ETHICS_AND_PUBLIC_TESTING.md`.
-
-### Removed
-
-- Separate agent harness file.
-- Separate methodology/evidence/pass-forward micro-files.
-- Separate stage micro-templates.
-- Separate register CSVs.
-- Separate public content idea files.
-- Separate parent, educator and learner guide placeholders.
+- No unreleased changes recorded.
 
 ---
 
-## Version 0.0.1 – Stage 0 Foundation
+## Version 0.0.1 – Stage 0 Foundation — 2026-06-17
 
-Planned first foundation release.
+First complete repository foundation, ready for Stage 1 preparation.
 
 ### Purpose
 
@@ -54,6 +29,29 @@ Create the complete repository foundation required to begin Stage 1.
 - Templates are usable.
 - Public and curriculum containers are ready.
 - Contribution pathway exists.
+
+### Added
+
+- Top-level orientation and contribution files.
+- Canonical agent and research operating systems.
+- Ethics, public testing and glossary documentation.
+- Eleven stage guides and six stage-output templates.
+- A neutral Version 0.1 curriculum release container.
+- Public communication and GitHub collaboration pathways.
+- Final dual licensing for content and software.
+
+### Changed
+
+- Consolidated agent harness instructions into `AGENTS.md`.
+- Consolidated methodology, evidence, claims, uncertainty, gates and pass-forward rules into `docs/RESEARCH_OPERATING_SYSTEM.md`.
+- Consolidated privacy, safeguarding and public-testing rules into `docs/ETHICS_AND_PUBLIC_TESTING.md`.
+- Aligned stage status values, role names, output requirements and reader journeys.
+- Removed premature curriculum, assessment and implementation answers from the Version 0.1 release container while retaining its authorised structure.
+
+### Removed
+
+- Duplicate public guidance and FAQ sections.
+- Separate micro-file concepts superseded by the canonical operating files and stage ledger.
 
 ---
 

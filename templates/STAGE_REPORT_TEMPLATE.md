@@ -10,7 +10,8 @@ This is the main technical output of the stage. It should be clear enough for ex
 
 **Stage number:**  
 **Stage name:**  
-**Stage status:** `draft | review | passed | passed_with_cautions | revise | rollback`  
+**Stage status:** `draft | review | pass | pass_with_cautions | revise_before_pass | rollback_required`
+
 **Date completed:**  
 **Lead agent / author:**  
 **Review agents:**  

@@ -10,7 +10,7 @@ Map plausible AI-shaped future conditions without pretending to predict a single
 
 ## 3. Position in the chain
 
-**Depends on:** Stage 0 foundation files. Can run in parallel with Stages 1–2 if clearly separated.
+**Depends on:** Stage 0 foundation files. It may begin in parallel with Stage 1 and continue alongside Stage 2 if all outputs remain separate.
 
 **Feeds into:** Stage 4 Life Within Future Conditions and Stage 11 release readiness.
 
@@ -92,7 +92,7 @@ Every significant source, claim, assumption, uncertainty and decision should be 
 
 ## 9. Execution workflow
 
-1. Read authorised inputs and previous pass-forward files.
+1. Read the authorised Stage 0 inputs; no prior-stage pass-forward exists.
 2. Restate the stage question in operational form.
 3. Create `STAGE_EXECUTION.md` from the template.
 4. Select agents and assign responsibilities.
@@ -116,7 +116,7 @@ This stage should produce:
 - Conservative and Exploratory Cases;
 - Stage 3 Pass-Forward Memo;
 
-In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md

@@ -30,9 +30,11 @@ source / evidence
 
 ## 2. Status
 
-**Status:** `draft | review | release_candidate | published`  
-**Primary authorising stages:** Stages 7–11  
-**Maintained by:** Claim Steward / Curriculum Architect / Release Manager  
+**Status:** `not_started`
+
+**Primary authorising stages:** Stages 10–11, using authorised records from Stages 1–9
+
+**Maintained by:** Claim Steward / Curriculum Architect / Release Manager
 
 ---
 

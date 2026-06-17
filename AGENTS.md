@@ -506,17 +506,17 @@ One agent builds the conservative case. One agent builds the exploratory case. T
 
 | Stage | Core agents |
 |---|---|
-| Stage 1 – Human Baseline | Human Sciences, Adolescent Development, Evidence Synthesis, Evidence Auditor, Bias Auditor |
-| Stage 2 – Flourishing | Flourishing and Values, Human Sciences, Adversarial Red Team, Claim Steward |
-| Stage 3 – AI Future Conditions | AI Futures, Foresight Scenario, Data Analyst, Adversarial Red Team |
-| Stage 4 – Life Within Futures | Systems Modeller, Human Sciences, AI Futures, Qualitative Synthesis, Bias Auditor |
-| Stage 5 – Human Invariants | Human Sciences, Flourishing, Foresight, Adversarial Red Team |
-| Stage 6 – Enduring Functions | Systems Modeller, Flourishing, Knowledge Integration, Claim Steward |
-| Stage 7 – Capabilities | Learning Sciences, Adolescent Development, Systems Modeller, Implementation Test |
-| Stage 8 – Knowledge/Experience/Practice | Learning Sciences, Subject Domain Panel, Learning Experience Designer, Evidence Auditor |
-| Stage 9 – Evidence of Learning | Assessment Expert, Ethics Expert, Learning Sciences, Implementation Test |
-| Stage 10 – Curriculum Architecture | Curriculum Architect, Learning Experience Designer, Implementation Feasibility, Traceability/Claim Steward |
-| Stage 11 – Verification and Release | Adversarial Red Team, Evidence Auditor, Bias Auditor, Ethics Expert, Release Manager |
+| Stage 1 – Human Baseline | Human Sciences Expert, Adolescent Development Expert, Evidence Synthesis Researcher, Evidence Auditor, Bias and Generalisability Auditor |
+| Stage 2 – Flourishing | Flourishing and Values Expert, Human Sciences Expert, Adversarial Red Team Agent, Claim Steward |
+| Stage 3 – AI Future Conditions | AI Futures Expert, Foresight Scenario Modeller, Data and Indicators Analyst, Adversarial Red Team Agent |
+| Stage 4 – Life Within Futures | Systems and Causal Modeller, Human Sciences Expert, AI Futures Expert, Qualitative Synthesis Researcher, Bias and Generalisability Auditor |
+| Stage 5 – Human Invariants | Human Sciences Expert, Flourishing and Values Expert, Foresight Scenario Modeller, Adversarial Red Team Agent |
+| Stage 6 – Enduring Functions | Systems and Causal Modeller, Flourishing and Values Expert, Knowledge Integration Architect, Claim Steward |
+| Stage 7 – Capabilities | Learning Sciences Expert, Adolescent Development Expert, Systems and Causal Modeller, Implementation Test Agent |
+| Stage 8 – Knowledge/Experience/Practice | Learning Sciences Expert, Subject Domain Panel, Learning Experience Designer, Evidence Auditor |
+| Stage 9 – Evidence of Learning | Assessment and Verification Expert, Ethics, Safeguarding and Privacy Expert, Learning Sciences Expert, Implementation Test Agent |
+| Stage 10 – Curriculum Architecture | Curriculum Architect, Learning Experience Designer, Implementation Feasibility Expert, Claim Steward |
+| Stage 11 – Verification and Release | Adversarial Red Team Agent, Evidence Auditor, Bias and Generalisability Auditor, Ethics, Safeguarding and Privacy Expert, Release Manager |
 
 This map is a default activation pattern. The Master Coordinator may add or remove roles if the stage guide and Research Operating System justify the change.
 

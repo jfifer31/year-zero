@@ -41,7 +41,7 @@ When contributing, identify the type of contribution.
 
 ## 3. Evidence and claim expectations
 
-A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides. Do not present anecdote as proof; describe practical experience as experience.
+A contribution does not need to be academic to be useful, but it must be clear about what kind of support it provides.
 
 Evidence may include:
 
@@ -55,7 +55,7 @@ Evidence may include:
 - technical analysis;
 - public communication feedback.
 
-Contributors should not present anecdote as proof. Practical experience is valuable, but it should be described as experience, not universal evidence.
+Do not present anecdote as proof. Practical experience is valuable, but it should be described as experience rather than universal evidence.
 
 ---
 

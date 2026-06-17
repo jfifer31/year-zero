@@ -12,14 +12,14 @@ The first public output will be **Version 0.1**: a curriculum hypothesis for KS3
 
 ## Start here
 
-| Reader | Start here | Canonical detail |
+| Reader | Start here | Then read |
 |---|---|---|
-| AI agent / Codex executor | `AGENTS.md` | Agent sequencing, harnesses, role activation and operating discipline live in `AGENTS.md`. |
-| Project lead | `PROJECT_CHARTER.md` | Mission, scope, values and success definition live in `PROJECT_CHARTER.md`. |
-| Research contributor | `research/README.md` | Stage navigation lives in `research/README.md`; methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. |
-| Parent, educator or learner | `public/README.md` | Public orientation lives in `public/README.md`; safety rules live in `docs/ETHICS_AND_PUBLIC_TESTING.md`. |
-| Curriculum reader | `curriculum/v0.1/README.md` | Curriculum release-container status lives in `curriculum/v0.1/README.md`. |
-| Contributor | `CONTRIBUTING.md` | Contribution routes and expectations live in `CONTRIBUTING.md`. |
+| AI agent / Codex executor | [`AGENTS.md`](AGENTS.md) | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), then the relevant `research/stage-XX-*/STAGE_GUIDE.md` and templates |
+| Project lead | [`PROJECT_CHARTER.md`](PROJECT_CHARTER.md) | [`ROADMAP.md`](ROADMAP.md), then [`research/README.md`](research/README.md) |
+| Research contributor or expert reviewer | [`CONTRIBUTING.md`](CONTRIBUTING.md) | The Research Operating System and relevant stage guide |
+| Parent, educator or learner | [`public/README.md`](public/README.md) | [`public/PUBLIC_FAQ.md`](public/PUBLIC_FAQ.md) and the ethics rules |
+| Curriculum reader | [`curriculum/v0.1/README.md`](curriculum/v0.1/README.md) | The release container remains unpopulated until the authorising stages |
+| Community contributor | [`CONTRIBUTING.md`](CONTRIBUTING.md) | The relevant GitHub issue or pull request template |
 
 ---
 
@@ -50,19 +50,6 @@ The first release is intentionally labelled **Version 0.1** because it should be
 The research chain moves from human foundations and AI-shaped future conditions through convergence, derivation, evidence of learning, curriculum architecture and release readiness.
 
 For the human-readable phase sequence, see [`ROADMAP.md`](ROADMAP.md). For the research navigation table and stage guide links, see [`research/README.md`](research/README.md). For dependency discipline, pass-forward rules and method requirements, see [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md).
-
----
-
-## How to use this repository
-
-| Reader | Start here | Then read |
-|---|---|---|
-| AI agent / Codex executor | `AGENTS.md` | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), then the relevant `research/stage-XX/STAGE_GUIDE.md` |
-| Project lead | `PROJECT_CHARTER.md` | [`ROADMAP.md`](ROADMAP.md), [`research/README.md`](research/README.md) |
-| Research contributor | `CONTRIBUTING.md` | [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md), relevant stage guide |
-| Parent or educator | `public/README.md` | `public/PUBLIC_FAQ.md`, later `curriculum/v0.1/IMPLEMENTATION_GUIDE.md` |
-| Learner | `public/README.md` | later `curriculum/v0.1/LEARNER` section inside `IMPLEMENTATION_GUIDE.md` |
-| Public follower | `public/PUBLIC_FAQ.md` | `public/CONTENT_STRATEGY.md` |
 
 ---
 
@@ -103,4 +90,4 @@ It does not need to be perfect before release. It does need to be serious enough
 
 ## Current status
 
-The project is currently in **Stage 0: Foundation**. The next substantive stage is **Stage 1 – Human Baseline**.
+**Stage 0 – Foundation is complete.** The repository is ready to prepare Stage 1 – Human Baseline, but Stage 1 research has not begun. Starting it requires an explicit execution plan and human authorisation.

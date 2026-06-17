@@ -1,29 +1,31 @@
-# Licence
+# Year Zero Education licence
 
-This repository is intended to be released as an open educational and research project.
+Unless a file states otherwise, this repository uses a dual licence based on the type of material.
 
-Until a final licence is formally confirmed, use the following provisional licensing intention:
+## Educational, research and curriculum content
 
-## Educational and research content
+The written educational, research, curriculum, documentation and public-communication content is licensed under the Creative Commons Attribution 4.0 International Licence (CC BY 4.0).
 
-All written educational, research and curriculum content is intended to be released under:
+You are free to share and adapt that material for any purpose, including commercially, provided that you give appropriate credit, provide a link to the licence and indicate whether changes were made. You may not apply legal terms or technological measures that restrict others from doing anything the licence permits.
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
+Full licence terms: https://creativecommons.org/licenses/by/4.0/legalcode
 
-This allows others to share and adapt the material, including commercially, provided appropriate credit is given.
+Suggested attribution:
+
+> Adapted from Year Zero Education, [version or commit], https://github.com/jfifer31/year-zero, licensed under CC BY 4.0. Changes were made.
 
 ## Software, scripts and technical tooling
 
-Any code, scripts or technical tooling added to this repository are intended to be released under:
+Software, scripts and technical tooling are licensed under the MIT Licence:
 
-**MIT Licence**
+Copyright (c) 2026 Year Zero Education contributors
 
-## Before public launch
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Before the first public release, replace this provisional notice with final licence text and confirm that all contributors understand the licensing model.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Attribution
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Recommended attribution format:
+## Contributions and third-party material
 
-> Adapted from Year Zero Education, Version [x], [repository URL], licensed under [final licence].
+By contributing, you agree that your contribution may be distributed under the licence applicable to the material you change. Third-party material retains its original licence and must be identified where included.
