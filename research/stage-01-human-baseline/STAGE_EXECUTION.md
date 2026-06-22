@@ -1,5 +1,7 @@
 # Stage Execution Plan
 
+> **Component status (20 June 2026):** Preserved as the completed Stage 1A execution record. No substantive reinterpretation is authorised. Stage 1A feeds only Stage 1R reconciliation.
+
 > Gate 1 document. This file defines how Stage 1 will run. It does not contain Stage 1 findings and does not authorise research until the start decision is approved.
 
 ## 1. Stage identity
@@ -12,9 +14,11 @@
 
 **Date prepared:** 2026-06-17
 
-**Stage owner / Master Coordinator:** Codex, subject to human project-lead approval
+**Research started:** 2026-06-17, after Human Gate 1 approval and merge of PR #10
 
-**Workflow status:** `active`
+**Stage owner / Master Coordinator:** Codex, under human project-lead gates
+
+**Workflow status:** `review`
 
 ## 2. Stage objective
 
@@ -230,6 +234,21 @@ Each workstream must seek at least two credible limiting, null, contradictory or
 - studies used outside their population, setting or measured construct without explicit limitation;
 - low-quality sources added solely to meet a numerical target.
 
+### 8.5 Verified source-selection outcome
+
+Source discovery and metadata verification were completed on 2026-06-17. The
+included corpus contains 120 unique sources: 20 in each of W1–W6. Selection
+prioritised review-level evidence while retaining strong primary studies,
+cross-cultural evidence and explicit boundary-setting or contrary findings.
+
+Candidate records were deduplicated by DOI or authoritative source URL. A
+duplicate account of the age boundaries of adolescence was retained only in W3,
+not counted again in W6. Citations that did not resolve to an authoritative
+record were corrected where the publication could be established or excluded
+and replaced. Inclusion in the source corpus does not by itself authorise a
+Stage 1 finding; evidence extraction, synthesis and Gate 2 review remain
+required.
+
 ## 9. Stage ledger setup
 
 `STAGE_LEDGER.csv` is the only structured register. It begins with the canonical 32-column template header.
@@ -282,6 +301,10 @@ Each workstream must seek at least two credible limiting, null, contradictory or
 | P-006 | Evidence Auditor | Formal audit | Test claim-to-evidence support and missing counterevidence | `STAGE_REVIEW.md` |
 | P-007 | Bias and Generalisability Auditor | Formal audit | Test cultural, class, access, language and neurotype assumptions | `STAGE_REVIEW.md` |
 | P-008 | Documentation Editor function under Master Coordinator | Public explanation | Produce a plain-language summary no stronger than the report | `PUBLIC_SUMMARY.md` |
+| P-009 | Six Research Librarian/domain workstreams | Parallel source discovery | Identify candidate review, primary, cross-cultural and boundary-setting evidence within each workstream | `STAGE_LEDGER.csv` |
+| P-010 | Six Research Librarian/domain workstreams | Metadata verification and selection | Verify title, author, year and DOI or authoritative URL; select 20 sources per lane and reject unresolved citations | `STAGE_LEDGER.csv` |
+| P-011 | Six Evidence Synthesis Researcher workstreams | Within-workstream synthesis | Produce four evidence syntheses, candidate claims, uncertainties and cross-workstream links per lane | `STAGE_LEDGER.csv`; `STAGE_REPORT.md` |
+| P-012 | Knowledge Integration Architect + Claim Steward | Integrated synthesis | Compare convergence and disagreement; classify 17 candidate findings, four assumptions and eight uncertainties | `STAGE_LEDGER.csv`; `STAGE_REPORT.md` |
 
 Full research prompts will be summarised here before use. No separate prompt-log file will be created.
 
@@ -289,14 +312,14 @@ Full research prompts will be summarised here before use. No separate prompt-log
 
 | Step | Task | Responsible agent | Output | Gate / status |
 |---|---|---|---|---|
-| 1 | Merge the approved setup PR | Project lead | Authorised execution files | Human Gate 1 |
-| 2 | Reconfirm latest `main`, scope and search date | Master Coordinator | Active execution state | Pending Gate 1 |
-| 3 | Run pilot searches in all six workstreams | Librarian + Methodologist | Coverage and query adjustments | Not started |
-| 4 | Discover, screen, deduplicate and log sources | Librarian + domain experts | Source records | Not started |
-| 5 | Extract and weight evidence | Domain experts | Evidence records | Not started |
-| 6 | Produce within-workstream syntheses | Domain experts + Synthesis Researcher | Draft report sections | Not started |
-| 7 | Integrate four report-level products and classify candidate claims | Synthesis Researcher + Claim Steward | Draft report and claim inventory | Not started |
-| 8 | Commit draft report and ledger; summarise disputes in PR conversation | Master Coordinator | Reviewable synthesis checkpoint | Human Gate 2 |
+| 1 | Merge the approved setup PR | Project lead | Authorised execution files | Completed — Human Gate 1 |
+| 2 | Reconfirm latest `main`, scope and search date | Master Coordinator | Active execution state | Completed |
+| 3 | Run pilot searches in all six workstreams | Librarian + Methodologist | Coverage and query adjustments | Completed |
+| 4 | Discover, screen, deduplicate and log sources | Librarian + domain experts | 120 verified source records | Completed |
+| 5 | Extract and weight evidence | Domain experts | 24 evidence records | Completed |
+| 6 | Produce within-workstream syntheses | Domain experts + Synthesis Researcher | Six integrated workstream syntheses | Completed |
+| 7 | Integrate four report-level products and classify candidate claims | Synthesis Researcher + Claim Steward | Draft report and 17-claim inventory | Completed |
+| 8 | Commit draft report and ledger; summarise disputes in PR conversation | Master Coordinator | Reviewable synthesis checkpoint | Active — Human Gate 2 |
 | 9 | Run method, evidence, claim and bias audits | Independent reviewers | `STAGE_REVIEW.md` and challenge records | Not started |
 | 10 | Resolve or carry all high/critical objections visibly | Authors + Master Coordinator | Revised report and ledger | Not started |
 | 11 | Draft controlled pass-forward and public summary | Claim Steward + Master Coordinator | Final two outputs | Not started |
@@ -308,8 +331,8 @@ If Gate 2 requires revision, work returns to the affected workstream and the syn
 ## 12. Output checklist
 
 - [x] `STAGE_EXECUTION.md` — populated for Gate 1
-- [x] `STAGE_LEDGER.csv` — canonical header only
-- [x] `STAGE_REPORT.md` — empty scaffold only
+- [x] `STAGE_LEDGER.csv` — 181 records including sources, evidence, candidate claims, assumptions, uncertainties, decisions and risks
+- [x] `STAGE_REPORT.md` — populated Human Gate 2 draft
 - [x] `STAGE_REVIEW.md` — empty scaffold only
 - [x] `PASS_FORWARD.md` — empty, non-authoritative scaffold only
 - [x] `PUBLIC_SUMMARY.md` — empty, unpublished scaffold only

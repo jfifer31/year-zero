@@ -93,7 +93,9 @@ The project uses eleven substantive stages after foundation setup.
 
 | Stage | Name | Primary output |
 |---|---|---|
-| 1 | Human Baseline | Minimum defensible human baseline. |
+| 1A | Education-Facing Human Baseline | Completed component study of learning, adolescence and educationally visible human functioning. |
+| 1B | General Human Baseline | Component study of recurring human drives, psychological mechanisms and social structures outside education. |
+| 1R | Human Baseline Reconciliation | Sole authoritative reconciled human baseline for downstream stages. |
 | 2 | Human Flourishing Model | Project-specific model of flourishing. |
 | 3 | AI Future Conditions Discovery | Map of plausible AI-shaped future conditions. |
 | 4 | Life Within Future Conditions | Models of lived human life inside plausible futures. |
@@ -447,9 +449,9 @@ This protects the project from reproducing inherited structures by default.
 
 ## 18. Human baseline rule
 
-Stage 1 should identify minimum defensible assumptions, not create a total theory of human nature.
+Stages 1A and 1B are component studies. Stage 1R should identify the reconciled minimum defensible assumptions and is the only Stage 1 interface authorised downstream. No component should create a total theory of human nature.
 
-The baseline should be:
+The reconciled baseline should be:
 
 - defensible;
 - relevant to education;
@@ -457,6 +459,8 @@ The baseline should be:
 - honest about variation;
 - cautious about universal claims;
 - clear about adolescence.
+
+Stage 1B must test recurrence rather than assume innateness, distinguish recurrent tendencies from inevitable institutions, and exclude educational implications. Stage 1R may not collect new evidence; unresolved evidence gaps return to the relevant component.
 
 ---
 
