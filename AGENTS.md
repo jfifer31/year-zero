@@ -506,7 +506,9 @@ One agent builds the conservative case. One agent builds the exploratory case. T
 
 | Stage | Core agents |
 |---|---|
-| Stage 1 – Human Baseline | Human Sciences Expert, Adolescent Development Expert, Evidence Synthesis Researcher, Evidence Auditor, Bias and Generalisability Auditor |
+| Stage 1A – Education-Facing Human Baseline | Human Sciences Expert, Adolescent Development Expert, Evidence Synthesis Researcher, Evidence Auditor, Bias and Generalisability Auditor |
+| Stage 1B – General Human Baseline | Human Sciences Expert, Cultural Anthropology specialist, Status and Hierarchy specialist, Cooperation and Institutions specialist, Evidence Synthesis Researcher, Evidence Auditor, Bias and Generalisability Auditor, Adversarial Red Team Agent |
+| Stage 1R – Human Baseline Reconciliation | Master Coordinator, Knowledge Integration Architect, Claim Steward, Evidence Auditor, Bias and Generalisability Auditor, Adversarial Red Team Agent |
 | Stage 2 – Flourishing | Flourishing and Values Expert, Human Sciences Expert, Adversarial Red Team Agent, Claim Steward |
 | Stage 3 – AI Future Conditions | AI Futures Expert, Foresight Scenario Modeller, Data and Indicators Analyst, Adversarial Red Team Agent |
 | Stage 4 – Life Within Futures | Systems and Causal Modeller, Human Sciences Expert, AI Futures Expert, Qualitative Synthesis Researcher, Bias and Generalisability Auditor |

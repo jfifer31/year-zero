@@ -10,7 +10,7 @@ Define what flourishing should mean for the project using Stage 1 findings and e
 
 ## 3. Position in the chain
 
-**Depends on:** Stage 1 pass-forward output.
+**Depends on:** the reconciled Stage 1R pass-forward at `research/stage-01-reconciliation/PASS_FORWARD.md`.
 
 **Feeds into:** Stage 4, Stage 5, Stage 6 and Stage 10.
 
@@ -18,7 +18,7 @@ This stage must preserve the distinction between what it has established, what i
 
 ## 4. Core research questions
 
-1. What does Stage 1 imply about what young people need in order to develop well?
+1. What does the reconciled Stage 1 baseline imply about what people, including young people, may need in order to develop well?
 2. Which dimensions of flourishing are empirically supported and educationally relevant?
 3. Which parts of flourishing require explicit normative judgement?
 4. How should the model balance agency, belonging, competence, meaning, contribution, responsibility and well-being?

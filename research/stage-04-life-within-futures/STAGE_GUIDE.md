@@ -10,7 +10,7 @@ Bring the human and AI streams together by modelling lived life inside plausible
 
 ## 3. Position in the chain
 
-**Depends on:** Stage 1, Stage 2 and Stage 3 pass-forward outputs.
+**Depends on:** the reconciled Stage 1R, Stage 2 and Stage 3 pass-forward outputs.
 
 **Feeds into:** Stage 5 Human Invariants Analysis.
 
@@ -80,7 +80,7 @@ The method choice must be written into `STAGE_EXECUTION.md`, including why each 
 
 Prioritise sources that can actually answer this stage’s question. Likely source types include:
 
-- Stage 1 human baseline;
+- reconciled Stage 1R human baseline;
 - Stage 2 flourishing model;
 - Stage 3 future conditions;
 - implementation evidence from education and technology adoption;

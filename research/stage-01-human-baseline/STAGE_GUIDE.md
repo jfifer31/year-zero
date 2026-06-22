@@ -1,5 +1,7 @@
 # Stage 1 – Human Baseline
 
+> **Component status (20 June 2026):** This completed education-facing study is retained as **Stage 1A**. Its evidence and conclusions are frozen as a component input to Stage 1R reconciliation. Its `PASS_FORWARD.md` does not independently authorise Stage 2.
+
 ## 1. Stage purpose
 
 Stage 1 establishes the human ground on which the whole project stands. It does not attempt to produce a total theory of human nature. It identifies the minimum defensible truths and strong working assumptions about human beings that any serious curriculum for the Intelligence Era must respect.

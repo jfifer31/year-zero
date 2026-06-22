@@ -14,7 +14,9 @@ Canonical methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. Agent sequen
 
 | Stage | Name | Guide | Purpose |
 |---|---|---|---|
-| Stage 1 | Human Baseline | [`stage-01-human-baseline/STAGE_GUIDE.md`](stage-01-human-baseline/STAGE_GUIDE.md) | Determine the minimum defensible assumptions about human beings that an educational framework must respect. |
+| Stage 1A | Education-Facing Human Baseline | [`stage-01-human-baseline/STAGE_GUIDE.md`](stage-01-human-baseline/STAGE_GUIDE.md) | Preserve the completed evidence about how human functioning appears in learning and adolescent contexts. Component input only. |
+| Stage 1B | General Human Baseline | [`stage-01b-general-human-baseline/STAGE_GUIDE.md`](stage-01b-general-human-baseline/STAGE_GUIDE.md) | Investigate recurring human drives, psychological mechanisms and social structures outside education. Component input only. |
+| Stage 1R | Human Baseline Reconciliation | [`stage-01-reconciliation/STAGE_GUIDE.md`](stage-01-reconciliation/STAGE_GUIDE.md) | Reconcile Stages 1A and 1B into the sole authoritative Stage 1 pass-forward. |
 | Stage 2 | Human Flourishing Model | [`stage-02-flourishing/STAGE_GUIDE.md`](stage-02-flourishing/STAGE_GUIDE.md) | Define what flourishing should mean for the project using Stage 1 findings and explicit normative reasoning. |
 | Stage 3 | AI Future Conditions Discovery | [`stage-03-ai-future-conditions/STAGE_GUIDE.md`](stage-03-ai-future-conditions/STAGE_GUIDE.md) | Map plausible AI-shaped future conditions without pretending to predict a single future. |
 | Stage 4 | Life Within Future Conditions | [`stage-04-life-within-futures/STAGE_GUIDE.md`](stage-04-life-within-futures/STAGE_GUIDE.md) | Bring the human and AI streams together by modelling lived life inside plausible future conditions. |
@@ -30,7 +32,7 @@ Canonical methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. Agent sequen
 
 ## Dependency note
 
-Stage 1 and Stage 3 may begin in parallel if their outputs are kept separate. Stage 2 begins only after Stage 1 passes; Stage 3 may continue alongside it. Stage 4 must not begin until Stages 1, 2 and 3 have produced authorised pass-forward outputs.
+Stages 1A and 1B are parallel component studies. Neither component pass-forward authorises Stage 2. Stage 2 begins only after Stage 1R passes and issues the reconciled `PASS_FORWARD.md`. Stage 3 may continue independently. Stage 4 must not begin until Stage 1R, Stage 2 and Stage 3 have produced authorised pass-forward outputs.
 
 For the full dependency model, required stage files, ledger system, evidence standards, adversarial review process, gate criteria and pass-forward rules, use `docs/RESEARCH_OPERATING_SYSTEM.md`.
 
