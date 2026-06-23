@@ -2,7 +2,11 @@
 
 > Copy this file into the active stage folder as `STAGE_REPORT.md`.
 
-This is the main technical output of the stage. It should be clear enough for expert review and structured enough for later agents to use without reinterpreting the whole stage.
+This is the main technical authority output of the stage. It should be clear enough for expert review and structured enough for later agents to use without reinterpreting the whole stage.
+
+The reader-facing nonfiction synthesis belongs in `STAGE_BOOK.md`. Do not make this report do the job of the book.
+
+Pipeline reminder: `PASS_FORWARD.md` is downstream authority; `STAGE_BOOK.md` needs independent literary review; major process milestones should appear in resumability logging.
 
 ---
 
@@ -15,6 +19,7 @@ This is the main technical output of the stage. It should be clear enough for ex
 **Date completed:**  
 **Lead agent / author:**  
 **Review agents:**  
+**Book output:** `STAGE_BOOK.md`
 
 ---
 
@@ -74,11 +79,21 @@ Summarise the evidence used.
 
 Refer to `STAGE_LEDGER.csv` for the full source and evidence log.
 
+### 5.1 Specialist synthesis and discussion
+
+Where specialist talks or chaired discussions were used, summarise the process and cite ledger records.
+
+| Input | Ledger record(s) | Role in synthesis |
+|---|---|---|
+| Specialist talks / briefs |  |  |
+| Chaired discussion |  |  |
+| Editorial decision |  |  |
+
 ---
 
 ## 6. Main findings
 
-Each finding should identify its claim type, confidence and ledger reference using the canonical rules in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+Each finding should identify its claim type, confidence and ledger reference using the canonical rules in `docs/STAGE_ORCHESTRATOR_SOP.md`.
 
 ### Finding 1 — [Title]
 

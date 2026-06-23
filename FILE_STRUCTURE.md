@@ -37,14 +37,14 @@ It should be updated whenever files are added, removed, renamed or consolidated.
 
 ```text
 /docs/
-  RESEARCH_OPERATING_SYSTEM.md
+  STAGE_ORCHESTRATOR_SOP.md
   ETHICS_AND_PUBLIC_TESTING.md
   GLOSSARY.md
 ```
 
 | File | Purpose |
 |---|---|
-| `RESEARCH_OPERATING_SYSTEM.md` | Methodology, evidence standards, claim classification, uncertainty, pass-forward rules, adversarial review and stage gates. |
+| `STAGE_ORCHESTRATOR_SOP.md` | End-to-end stage execution, evidence standards, claim classification, specialist synthesis, pass-forward rules, book-output rules, adversarial review and stage gates. |
 | `ETHICS_AND_PUBLIC_TESTING.md` | Safeguarding, privacy, learner data, testing ethics and public implementation boundaries. |
 | `GLOSSARY.md` | Shared vocabulary. |
 
@@ -90,6 +90,7 @@ STAGE_REPORT.md
 STAGE_REVIEW.md
 PASS_FORWARD.md
 PUBLIC_SUMMARY.md
+STAGE_BOOK.md
 ```
 
 These outputs are not pre-created unless a stage is being run.
@@ -105,6 +106,7 @@ These outputs are not pre-created unless a stage is being run.
   STAGE_REVIEW_TEMPLATE.md
   PASS_FORWARD_TEMPLATE.md
   PUBLIC_SUMMARY_TEMPLATE.md
+  STAGE_BOOK_TEMPLATE.md
   STAGE_LEDGER_TEMPLATE.csv
 ```
 
@@ -163,7 +165,7 @@ These Markdown issue templates and the pull request template structure public co
 The project intentionally avoids separate files for:
 
 - agent harnesses outside `AGENTS.md`;
-- separate methodology, evidence and pass-forward micro-docs;
+- separate methodology, evidence, book-output and pass-forward micro-docs;
 - individual CSV registers for every record type;
 - parent, educator and learner guide placeholders before Version 0.1 exists;
 - separate public release announcement and social media files before release.

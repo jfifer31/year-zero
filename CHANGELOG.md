@@ -43,7 +43,7 @@ Create the complete repository foundation required to begin Stage 1.
 ### Changed
 
 - Consolidated agent harness instructions into `AGENTS.md`.
-- Consolidated methodology, evidence, claims, uncertainty, gates and pass-forward rules into `docs/RESEARCH_OPERATING_SYSTEM.md`.
+- Consolidated methodology, evidence, claims, uncertainty, gates and pass-forward rules into `docs/STAGE_ORCHESTRATOR_SOP.md`.
 - Consolidated privacy, safeguarding and public-testing rules into `docs/ETHICS_AND_PUBLIC_TESTING.md`.
 - Aligned stage status values, role names, output requirements and reader journeys.
 - Removed premature curriculum, assessment and implementation answers from the Version 0.1 release container while retaining its authorised structure.

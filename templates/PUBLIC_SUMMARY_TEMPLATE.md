@@ -6,6 +6,10 @@ This file explains the stage to parents, educators, learners, contributors and i
 
 It should be clear, honest and non-hype. It should not flatten uncertainty.
 
+For a longer reader-facing narrative, see `STAGE_BOOK.md` when available. `PASS_FORWARD.md` remains the downstream authority.
+
+Pipeline reminder: `STAGE_BOOK.md` needs independent literary review; major process milestones should appear in resumability logging.
+
 ---
 
 ## 1. Stage name

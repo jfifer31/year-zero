@@ -113,7 +113,7 @@ This stage should produce:
 - Known Value Trade-offs;
 - Stage 2 Pass-Forward Memo;
 
-These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six authority files plus `STAGE_BOOK.md`, not additional subtask files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md
@@ -122,6 +122,7 @@ STAGE_REPORT.md
 STAGE_REVIEW.md
 PASS_FORWARD.md
 PUBLIC_SUMMARY.md
+STAGE_BOOK.md
 ```
 
 ## 11. Stage ledger requirements
@@ -203,6 +204,7 @@ This stage is complete when:
 - bias and generalisability have been considered;
 - pass-forward rules are clear;
 - the public summary is written;
+- book output is written and independently reviewed;
 - the Master Coordinator marks the stage as `pass` or `pass_with_cautions`.
 
 ## 17. Common failure modes
@@ -222,9 +224,9 @@ Avoid:
 ```text
 You are running Stage 2 – Human Flourishing Model of the Year Zero Education research programme.
 
-Read AGENTS.md, docs/RESEARCH_OPERATING_SYSTEM.md, research/README.md and this STAGE_GUIDE.md.
+Read AGENTS.md, docs/STAGE_ORCHESTRATOR_SOP.md, research/README.md and this STAGE_GUIDE.md.
 
-Your task is to complete this stage only. Do not solve later stages. Produce STAGE_EXECUTION.md, STAGE_LEDGER.csv, STAGE_REPORT.md, STAGE_REVIEW.md, PASS_FORWARD.md and PUBLIC_SUMMARY.md.
+Your task is to complete this stage only. Do not solve later stages. Produce STAGE_EXECUTION.md, STAGE_LEDGER.csv, STAGE_REPORT.md, STAGE_REVIEW.md, PASS_FORWARD.md, PUBLIC_SUMMARY.md and STAGE_BOOK.md.
 
 Classify all important claims. Preserve uncertainty. Run adversarial review before pass-forward.
 ```

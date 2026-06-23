@@ -29,7 +29,7 @@ Create the repository structure and operating system required to run the full re
 - `ROADMAP.md`
 - `AGENTS.md`
 - `CONTRIBUTING.md`
-- `docs/RESEARCH_OPERATING_SYSTEM.md`
+- `docs/STAGE_ORCHESTRATOR_SOP.md`
 - `docs/ETHICS_AND_PUBLIC_TESTING.md`
 - `docs/GLOSSARY.md`
 - all stage guides;
@@ -189,6 +189,6 @@ Version 0.1 should therefore be designed for revision, not defended as final.
 
 ## Operating cadence
 
-Each stage follows the operating cadence defined in `docs/RESEARCH_OPERATING_SYSTEM.md`: authorised inputs, execution plan, evidence review, stage ledger, report, adversarial review, pass-forward memo, public summary and gate decision.
+Each stage follows the operating cadence defined in `docs/STAGE_ORCHESTRATOR_SOP.md`: authorised inputs, execution plan, evidence review, stage ledger, report, adversarial review, pass-forward memo, public summary, book output, independent literary review and gate decision.
 
 Agent sequencing and role activation for that cadence are defined in `AGENTS.md`.

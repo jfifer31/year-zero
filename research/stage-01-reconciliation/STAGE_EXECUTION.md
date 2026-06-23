@@ -16,8 +16,8 @@ Reconcile the reviewed Stage 1A education-facing human baseline and Stage 1B gen
 
 | Input | Permitted use | Restriction |
 |---|---|---|
-| Stage 1A six canonical files | Reviewed component pass-forward claims, assumptions, uncertainties, risks and cited ledger records | Component authority only; no independent Stage 2 authority |
-| Stage 1B six canonical files | Reviewed component pass-forward claims, assumptions, uncertainties, risks and cited ledger records | Component authority only; no independent Stage 2 authority |
+| Stage 1A six authority files | Reviewed component pass-forward claims, assumptions, uncertainties, risks and cited ledger records | Component authority only; no independent Stage 2 authority |
+| Stage 1B six authority files | Reviewed component pass-forward claims, assumptions, uncertainties, risks and cited ledger records | Component authority only; no independent Stage 2 authority |
 | Stage 1R guide and operating files | Method, classification and gate discipline | Not evidence |
 
 No external source discovery, browsing, new evidence extraction or reinterpretation of uncited component material is authorised.

@@ -17,7 +17,7 @@ Construct a provisional, source-grounded account of recurring human drives, psyc
 | Input | Permitted use | Restriction |
 |---|---|---|
 | `AGENTS.md` | Agent orchestration | Not evidence |
-| `docs/RESEARCH_OPERATING_SYSTEM.md` | Method and gates | Not evidence |
+| `docs/STAGE_ORCHESTRATOR_SOP.md` | Method and gates | Not evidence |
 | `research/README.md` | Dependency structure | Not evidence |
 | `STAGE_GUIDE.md` | Stage-specific scope | Controlling guide |
 | External published evidence | Stage 1B evidence | Must be logged and screened |

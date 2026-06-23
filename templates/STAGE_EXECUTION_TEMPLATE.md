@@ -2,9 +2,11 @@
 
 > Copy this file into the active stage folder as `STAGE_EXECUTION.md` before the stage begins.
 
-This file defines how the stage will be run. It combines the previous stage brief, method selection, research question tree and prompt log into one operating document.
+This file defines how the stage will be run from authorised inputs through evidence, specialist synthesis, chaired discussion, canonical outputs, book output and review.
 
-Do not treat this as a formality. A weak execution plan usually produces a weak stage report.
+Do not treat this as a formality. A weak execution plan usually produces weak research, weak pass-forward claims and weak public prose.
+
+Pipeline reminder: `PASS_FORWARD.md` is downstream authority; `STAGE_BOOK.md` needs independent literary review; major process milestones should appear in resumability logging.
 
 ---
 
@@ -138,13 +140,32 @@ Where agents work in parallel, describe the division.
 |---|---|---|---|
 |  |  |  |  |
 
-### 7.2 Adversarial or audit plan
+### 7.2 Specialist synthesis plan
+
+Use when the stage has multiple domains, conflicting evidence or public-facing synthesis needs.
+
+| Specialist / role | Scope | Authorised sources or inputs | Required output | Integration point |
+|---|---|---|---|---|
+|  |  |  | Specialist talk / synthesis brief |  |
+
+Each specialist output must follow the Agent Cognitive Quality Protocol in `docs/STAGE_ORCHESTRATOR_SOP.md`.
+
+### 7.3 Cross-agent discussion plan
+
+| Discussion round | Chair | Purpose | Required records |
+|---|---|---|---|
+|  | Master Coordinator | Connect domains, challenge overclaims and identify emergent structure. | Ledger `challenge` and `decision` records. |
+
+No final thesis, chapter order or pass-forward filtering should be locked before the chaired discussion where specialist synthesis is required.
+
+### 7.4 Adversarial, audit and literary review plan
 
 At least one quality/adversarial review must occur.
 
 | Review type | Agent | What they will attack or audit | When |
 |---|---|---|---|
 |  |  |  |  |
+| Independent literary review | Literary Review Agent | `STAGE_BOOK.md` as standalone nonfiction, source discipline and absence of filler/meta-text. | After book draft and before closure. |
 
 ---
 
@@ -181,7 +202,7 @@ Define what will not be used as evidence.
 
 Create `STAGE_LEDGER.csv` using `templates/STAGE_LEDGER_TEMPLATE.csv`.
 
-Use the canonical `record_type` values defined in `docs/RESEARCH_OPERATING_SYSTEM.md`; do not invent stage-specific alternatives without recording the reason.
+Use the canonical `record_type` values defined in `docs/STAGE_ORCHESTRATOR_SOP.md`; do not invent stage-specific alternatives without recording the reason.
 
 ### 9.1 Minimum ledger expectations
 
@@ -195,6 +216,11 @@ Before the stage can pass, the ledger should contain:
 - decisions made;
 - risks identified;
 - traceability links;
+- specialist talks or synthesis briefs, where used;
+- discussion points and weakened claims;
+- editorial decisions;
+- literary review records;
+- resume markers;
 - adversarial challenges;
 - revision triggers.
 
@@ -221,11 +247,13 @@ Do not paste extremely long prompts unless needed. Summarise and link to full lo
 | 3 | Conduct source discovery. | Research Librarian | Ledger source records. |  |
 | 4 | Synthesise evidence. | Evidence Synthesis / domain agents | Draft findings. |  |
 | 5 | Classify claims. | Claim Steward | Ledger claim records. |  |
-| 6 | Draft stage report. | Assigned agents | `STAGE_REPORT.md` |  |
-| 7 | Run review. | Adversarial/audit agents | `STAGE_REVIEW.md` |  |
-| 8 | Revise outputs. | Master Coordinator / authors | Updated report and ledger. |  |
-| 9 | Create pass-forward. | Master Coordinator / Claim Steward | `PASS_FORWARD.md` |  |
-| 10 | Create public summary. | Documentation/Public agent | `PUBLIC_SUMMARY.md` |  |
+| 6 | Run specialist synthesis and chaired discussion. | Specialists / Master Coordinator | Ledger talks, challenges and decisions. |  |
+| 7 | Decide editorial architecture. | Master Coordinator / Editor | Thesis, report structure and book arc logged. |  |
+| 8 | Draft authority outputs. | Assigned agents | `STAGE_REPORT.md`, `PASS_FORWARD.md`, `PUBLIC_SUMMARY.md` |  |
+| 9 | Run evidence, bias, adversarial and pass-forward review. | Review agents | `STAGE_REVIEW.md` |  |
+| 10 | Draft reader-facing book output. | Editor / Public Narrative Strategist | `STAGE_BOOK.md` |  |
+| 11 | Run independent literary review and revise. | Literary Review Agent / Editor | Review record and final `STAGE_BOOK.md` |  |
+| 12 | Final validation and closure. | Master Coordinator | Stage gate decision and resume marker. |  |
 
 ---
 
@@ -239,10 +267,26 @@ A complete stage folder must contain:
 - [ ] `STAGE_REVIEW.md`
 - [ ] `PASS_FORWARD.md`
 - [ ] `PUBLIC_SUMMARY.md`
+- [ ] `STAGE_BOOK.md`
+
+Authority boundary:
+
+- [ ] `PASS_FORWARD.md` contains the only downstream-authorised claims.
+- [ ] `STAGE_BOOK.md` is marked and reviewed as a reader-facing companion, not downstream authority.
 
 ---
 
-## 13. Known risks before starting
+## 13. Resumability log
+
+After every major step, add a dated resume marker.
+
+| Resume marker | Completed | Source or ledger IDs used | Open questions | Current synthesis status | Next exact action |
+|---|---|---|---|---|---|
+| R-001 |  |  |  |  |  |
+
+---
+
+## 14. Known risks before starting
 
 | Risk | Why it matters | Mitigation |
 |---|---|---|
@@ -250,7 +294,7 @@ A complete stage folder must contain:
 
 ---
 
-## 14. Start decision
+## 15. Start decision
 
 **Start decision:** `approved | revise_before_start`
 

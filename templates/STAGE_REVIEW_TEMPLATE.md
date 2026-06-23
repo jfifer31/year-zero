@@ -2,9 +2,11 @@
 
 > Copy this file into the active stage folder as `STAGE_REVIEW.md`.
 
-This file combines adversarial review, evidence audit, bias/generalisation audit, implementation risk review and stage gate decision.
+This file combines adversarial review, evidence audit, bias/generalisation audit, implementation risk review, book-output review and stage gate decision.
 
 The review should make the stage stronger, not merely criticise it.
+
+Pipeline reminder: `PASS_FORWARD.md` is downstream authority; `STAGE_BOOK.md` needs independent literary review; major process milestones should appear in resumability logging.
 
 ---
 
@@ -16,6 +18,7 @@ The review should make the stage stronger, not merely criticise it.
 **Review agents:**  
 **Stage report reviewed:** `STAGE_REPORT.md`  
 **Ledger reviewed:** `STAGE_LEDGER.csv`  
+**Book output reviewed:** `STAGE_BOOK.md`
 
 ---
 
@@ -68,7 +71,7 @@ List the strongest objections to the stage output.
 |---|---|---|---|
 |  |  | `yes | no | uncertain` |  |
 
-Check against the canonical claim-handling rules in `docs/RESEARCH_OPERATING_SYSTEM.md`, especially misclassified findings, assumptions, values, projections and design decisions.
+Check against the canonical claim-handling rules in `docs/STAGE_ORCHESTRATOR_SOP.md`, especially misclassified findings, assumptions, values, projections and design decisions.
 
 ---
 
@@ -164,7 +167,40 @@ Reject any pass-forward claim that is stronger than the stage report supports.
 
 ---
 
-## 13. Required revisions
+## 13. Book output audit
+
+`STAGE_BOOK.md` is a reader-facing companion, not downstream authority.
+
+| Question | Answer |
+|---|---|
+| Does it have a clear central thesis and narrative arc? |  |
+| Does it read as standalone nonfiction rather than a report? |  |
+| Are major claims source-grounded without source dumping? |  |
+| Does it avoid repo/process meta-text? |  |
+| Does it avoid filler, repeated scaffolds and obvious AI texture? |  |
+| Does it preserve uncertainty and prohibited overextensions? |  |
+| Does it avoid later-stage drift? |  |
+
+### 13.1 Independent literary review
+
+This independent literary review must be performed by a reviewer that did not write `STAGE_BOOK.md`.
+
+Choose one:
+
+- [ ] `approved`
+- [ ] `approved_with_minor_edits`
+- [ ] `revise_before_approval`
+- [ ] `reject_and_rewrite`
+
+**Review agent:**  
+**Required edits:**  
+**Edits completed:** `yes | no | not_applicable`
+
+Only `approved` or `approved_with_minor_edits` may close the stage.
+
+---
+
+## 14. Required revisions
 
 | Revision ID | Required change | File affected | Responsible agent | Completion status |
 |---|---|---|---|---|
@@ -172,24 +208,24 @@ Reject any pass-forward claim that is stronger than the stage report supports.
 
 ---
 
-## 14. Stage gate decision
+## 15. Stage gate decision
 
-### 14.1 Final decision
+### 15.1 Final decision
 
 `pass | pass_with_cautions | revise_before_pass | rollback_required`
 
-### 14.2 Reason
+### 15.2 Reason
 
 > [Write here]
 
-### 14.3 Conditions attached
+### 15.3 Conditions attached
 
 If passed with cautions, list them here.
 
 - [ ]
 - [ ]
 
-### 14.4 Revision triggers
+### 15.4 Revision triggers
 
 What future evidence or critique should reopen this stage?
 
@@ -198,7 +234,7 @@ What future evidence or critique should reopen this stage?
 
 ---
 
-## 15. Reviewer sign-off
+## 16. Reviewer sign-off
 
 | Reviewer | Role | Sign-off | Notes |
 |---|---|---|---|

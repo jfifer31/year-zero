@@ -1,8 +1,8 @@
 # AGENTS.md
 
-This file is the operating manual for AI agents working on Year Zero Education.
+This file is the runtime bootloader and role map for AI agents working on Year Zero Education.
 
-It defines agent operating sequence, role harnesses, calling patterns, handoff rules and non-negotiable agent discipline. It does **not** define the research method, evidence standards, claim taxonomy, stage gates or pass-forward protocol in full; those are governed by `docs/RESEARCH_OPERATING_SYSTEM.md`.
+It defines the immediate read order, agent harnesses and non-negotiable discipline. The end-to-end research-to-book pipeline, evidence standards, claim taxonomy, stage gates, pass-forward protocol and book-output rules are governed by `docs/STAGE_ORCHESTRATOR_SOP.md`.
 
 ---
 
@@ -11,7 +11,7 @@ It defines agent operating sequence, role harnesses, calling patterns, handoff r
 Before acting, read, in order:
 
 1. `AGENTS.md`
-2. `docs/RESEARCH_OPERATING_SYSTEM.md`
+2. `docs/STAGE_ORCHESTRATOR_SOP.md`
 3. `research/README.md`
 4. the relevant `research/stage-XX-*/STAGE_GUIDE.md`
 5. the relevant templates in `/templates/`
@@ -22,7 +22,7 @@ If instructions conflict, follow this order of authority:
 
 1. Direct user or system instructions.
 2. The relevant stage guide.
-3. `docs/RESEARCH_OPERATING_SYSTEM.md` for method, evidence, claim handling, uncertainty, gates and pass-forward rules.
+3. `docs/STAGE_ORCHESTRATOR_SOP.md` for method, evidence, claim handling, uncertainty, gates and pass-forward rules.
 4. This file for agent orchestration and discipline.
 5. Templates for required output structure.
 
@@ -36,7 +36,7 @@ Agent work must be:
 
 - sequential where dependencies require sequence;
 - parallel only where independent work improves quality;
-- evidence-disciplined through the Research Operating System;
+- evidence-disciplined through the Stage Orchestrator SOP;
 - transparent about assumptions and uncertainty;
 - adversarially tested before handoff;
 - publicly explainable;
@@ -60,7 +60,7 @@ Agent work must be:
 11. Do not multiply files unless a new file has a distinct operating purpose.
 12. Do not treat existing curriculum structures as the starting point for derivation.
 13. Do not allow agent role-play to substitute for method, evidence or review.
-14. Do not pass work forward unless the Research Operating System's completion and gate rules are satisfied.
+14. Do not pass work forward unless the Stage Orchestrator SOP's completion and gate rules are satisfied.
 
 ---
 
@@ -75,7 +75,7 @@ For each authorised stage or repository task, agents follow this sequence:
 4. Select the smallest sufficient agent team.
 5. Assign roles, outputs and review responsibilities.
 6. Create or update required stage files from templates where applicable.
-7. Conduct the work using the method in docs/RESEARCH_OPERATING_SYSTEM.md.
+7. Conduct the work using the stage pipeline in `docs/STAGE_ORCHESTRATOR_SOP.md`.
 8. Record sources, claims, assumptions, uncertainties, decisions and risks as required.
 9. Run adversarial, evidence, bias, implementation or ethics review as appropriate.
 10. Integrate findings without hiding disagreement.
@@ -169,7 +169,7 @@ The hierarchy is operational, not ceremonial. Add roles only when they change th
 
 ### 6.4 Claim Steward
 
-**Primary function:** Maintain claim discipline under the Research Operating System.
+**Primary function:** Maintain claim discipline under the Stage Orchestrator SOP.
 
 **Use when:** Any stage produces findings, assumptions, uncertainties or conclusions.
 
@@ -520,7 +520,7 @@ One agent builds the conservative case. One agent builds the exploratory case. T
 | Stage 10 – Curriculum Architecture | Curriculum Architect, Learning Experience Designer, Implementation Feasibility Expert, Claim Steward |
 | Stage 11 – Verification and Release | Adversarial Red Team Agent, Evidence Auditor, Bias and Generalisability Auditor, Ethics, Safeguarding and Privacy Expert, Release Manager |
 
-This map is a default activation pattern. The Master Coordinator may add or remove roles if the stage guide and Research Operating System justify the change.
+This map is a default activation pattern. The Master Coordinator may add or remove roles if the stage guide and Stage Orchestrator SOP justify the change.
 
 ---
 
@@ -528,13 +528,14 @@ This map is a default activation pattern. The Master Coordinator may add or remo
 
 Agents hand work forward through controlled outputs, not informal summaries.
 
-1. Use the file names and templates required by the relevant stage guide and Research Operating System.
+1. Use the file names and templates required by the relevant stage guide and Stage Orchestrator SOP.
 2. Treat `PASS_FORWARD.md` as the interface between stages.
-3. Include cautions, unresolved uncertainties and revision triggers in handoffs.
-4. Preserve dissent from reviews when it affects downstream use.
-5. Do not strengthen a claim during handoff.
-6. Do not bury failed review points; either resolve them or carry them forward visibly.
-7. If a stage cannot pass, produce a revision or rollback recommendation rather than a polished but unsafe handoff.
+3. Treat `STAGE_BOOK.md` as reader-facing narrative only, never downstream authority.
+4. Include cautions, unresolved uncertainties and revision triggers in handoffs.
+5. Preserve dissent from reviews when it affects downstream use.
+6. Do not strengthen a claim during handoff.
+7. Do not bury failed review points; either resolve them or carry them forward visibly.
+8. If a stage cannot pass, produce a revision or rollback recommendation rather than a polished but unsafe handoff.
 
 ---
 
@@ -549,13 +550,24 @@ STAGE_REPORT.md
 STAGE_REVIEW.md
 PASS_FORWARD.md
 PUBLIC_SUMMARY.md
+STAGE_BOOK.md
 ```
 
 Do not create extra files for every subtask unless the stage guide specifically requires them or the file has a distinct operating purpose.
 
 ---
 
-## 16. Final operating reminder
+## 16. Agent Cognitive Quality Protocol
+
+Use the Agent Cognitive Quality Protocol in `docs/STAGE_ORCHESTRATOR_SOP.md` whenever a stage requires specialist synthesis, cross-agent discussion, public-facing prose or high-stakes claim discipline.
+
+Agents must produce public, structured reasoning outputs without exposing private chain-of-thought. Specialist and editorial outputs should make scope, authorised sources, mechanism, claim class, uncertainty, counterarguments, preserved claims, weakened claims and exclusions visible.
+
+When the task may exceed the current context window, update the stage execution file or ledger with a resume marker before stopping.
+
+---
+
+## 17. Final operating reminder
 
 Your job is not to produce impressive prose or agent theatre.
 
