@@ -2,11 +2,11 @@
 
 This folder is the navigation hub for the Year Zero Education research chain. Each stage folder contains a `STAGE_GUIDE.md` that defines the stage purpose, inputs, methods, outputs and pass-forward requirements.
 
-Agents read `AGENTS.md` for operating sequence, roles, harnesses and handoff discipline. All researchers follow `docs/RESEARCH_OPERATING_SYSTEM.md` for method, evidence standards, claim classification, uncertainty, stage gates and pass-forward rules.
+Agents read `AGENTS.md` for operating sequence, roles, harnesses and handoff discipline. All researchers follow `docs/STAGE_ORCHESTRATOR_SOP.md` for method, evidence standards, claim classification, uncertainty, stage gates and pass-forward rules.
 
 Do not treat these stages as loose topics. They are an engineered dependency chain designed to derive a Version 0.1 curriculum hypothesis from first principles.
 
-Canonical methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. Agent sequencing and role activation live in `AGENTS.md`.
+Canonical methodology lives in `docs/STAGE_ORCHESTRATOR_SOP.md`. Agent sequencing and role activation live in `AGENTS.md`.
 
 ---
 
@@ -34,19 +34,19 @@ Canonical methodology lives in `docs/RESEARCH_OPERATING_SYSTEM.md`. Agent sequen
 
 Stages 1A and 1B are parallel component studies. Neither component pass-forward authorises Stage 2. Stage 2 begins only after Stage 1R passes and issues the reconciled `PASS_FORWARD.md`. Stage 3 may continue independently. Stage 4 must not begin until Stage 1R, Stage 2 and Stage 3 have produced authorised pass-forward outputs.
 
-For the full dependency model, required stage files, ledger system, evidence standards, adversarial review process, gate criteria and pass-forward rules, use `docs/RESEARCH_OPERATING_SYSTEM.md`.
+For the full dependency model, required stage files, ledger system, evidence standards, adversarial review process, gate criteria and pass-forward rules, use `docs/STAGE_ORCHESTRATOR_SOP.md`.
 
 ---
 
 ## How to run a stage
 
 1. Read `AGENTS.md`.
-2. Read `docs/RESEARCH_OPERATING_SYSTEM.md`.
+2. Read `docs/STAGE_ORCHESTRATOR_SOP.md`.
 3. Read the relevant stage `STAGE_GUIDE.md`.
 4. Copy the required templates from `/templates/` into the stage folder.
 5. Produce the required stage outputs and complete review before passing anything forward.
 
-The required output names are defined canonically in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+The required output names are defined canonically in `docs/STAGE_ORCHESTRATOR_SOP.md`.
 
 ---
 

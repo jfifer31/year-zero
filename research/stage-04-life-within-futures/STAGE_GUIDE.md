@@ -115,7 +115,7 @@ This stage should produce:
 - Access and Inequality Analysis;
 - Stage 4 Pass-Forward Memo;
 
-These named products are sections or structured results within the six canonical stage files, not additional files. In repository terms, the completed stage folder should contain:
+These named products are sections or structured results within the six authority files plus `STAGE_BOOK.md`, not additional subtask files. In repository terms, the completed stage folder should contain:
 
 ```text
 STAGE_EXECUTION.md
@@ -124,7 +124,16 @@ STAGE_REPORT.md
 STAGE_REVIEW.md
 PASS_FORWARD.md
 PUBLIC_SUMMARY.md
+STAGE_BOOK.md
 ```
+
+When Stage 4 uses a scenario or lived-world book form, create a checkpoint artifact before rewriting the final manuscript:
+
+```text
+STAGE_BOOK_STORY_OVERVIEW.md
+```
+
+This file should hold the worldspace matrix, forecast anchors, world condition cards, protagonist dossiers, scene-level story overview and Clu manual review. It is allowed as a distinct operating artifact because Stage 4 scenario books must pass world design before prose drafting. It is not downstream authority and should not appear inside the public manuscript body.
 
 ## 11. Stage ledger requirements
 
@@ -205,6 +214,7 @@ This stage is complete when:
 - bias and generalisability have been considered;
 - pass-forward rules are clear;
 - the public summary is written;
+- book output is written and independently reviewed;
 - the Master Coordinator marks the stage as `pass` or `pass_with_cautions`.
 
 ## 17. Common failure modes
@@ -224,9 +234,9 @@ Avoid:
 ```text
 You are running Stage 4 – Life Within Future Conditions of the Year Zero Education research programme.
 
-Read AGENTS.md, docs/RESEARCH_OPERATING_SYSTEM.md, research/README.md and this STAGE_GUIDE.md.
+Read AGENTS.md, docs/STAGE_ORCHESTRATOR_SOP.md, research/README.md and this STAGE_GUIDE.md.
 
-Your task is to complete this stage only. Do not solve later stages. Produce STAGE_EXECUTION.md, STAGE_LEDGER.csv, STAGE_REPORT.md, STAGE_REVIEW.md, PASS_FORWARD.md and PUBLIC_SUMMARY.md.
+Your task is to complete this stage only. Do not solve later stages. Produce STAGE_EXECUTION.md, STAGE_LEDGER.csv, STAGE_REPORT.md, STAGE_REVIEW.md, PASS_FORWARD.md, PUBLIC_SUMMARY.md and STAGE_BOOK.md.
 
 Classify all important claims. Preserve uncertainty. Run adversarial review before pass-forward.
 ```

@@ -41,7 +41,7 @@ List the main files affected.
 
 ```text
 [example]
-docs/RESEARCH_OPERATING_SYSTEM.md
+docs/STAGE_ORCHESTRATOR_SOP.md
 research/stage-01-human-baseline/STAGE_GUIDE.md
 ```
 

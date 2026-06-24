@@ -6,8 +6,8 @@ Reconcile the completed education-facing Stage 1A and general-human Stage 1B int
 
 ## Authorised inputs
 
-- Stage 1A canonical files in `research/stage-01-human-baseline/`;
-- Stage 1B canonical files in `research/stage-01b-general-human-baseline/`.
+- Stage 1A authority files in `research/stage-01-human-baseline/`;
+- Stage 1B authority files in `research/stage-01b-general-human-baseline/`.
 
 No new sources may be collected during reconciliation. If a gap requires new evidence, return it to the relevant component stage.
 
@@ -38,3 +38,17 @@ The reconciliation may not derive education's purpose, define flourishing, desig
 ## Gate rule
 
 Stage 2 remains blocked until Stage 1R receives `pass` or `pass_with_cautions`. Only `research/stage-01-reconciliation/PASS_FORWARD.md` may then authorise Stage 2.
+
+## Required stage files
+
+When run or reopened under the current SOP, Stage 1R should produce the six authority files plus `STAGE_BOOK.md`. `PASS_FORWARD.md` remains the only downstream authority.
+
+```text
+STAGE_EXECUTION.md
+STAGE_LEDGER.csv
+STAGE_REPORT.md
+STAGE_REVIEW.md
+PASS_FORWARD.md
+PUBLIC_SUMMARY.md
+STAGE_BOOK.md
+```

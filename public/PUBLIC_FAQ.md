@@ -40,7 +40,7 @@ No final decision has been authorised. Later stages will examine where AI might 
 
 The project is evidence-disciplined: it uses evidence where available, labels assumptions and values, preserves uncertainty and requires adversarial review.
 
-That process does not make Version 0.1 proven. The canonical standards are in the [Research Operating System](../docs/RESEARCH_OPERATING_SYSTEM.md).
+That process does not make Version 0.1 proven. The canonical standards are in the [Stage Orchestrator SOP](../docs/STAGE_ORCHESTRATOR_SOP.md).
 
 ## 10. How does the research process work?
 
@@ -76,5 +76,5 @@ Version 0.1 should be coherent, traceable, usable, honest about uncertainty and 
 
 - New public reader: [Public Guide](README.md)
 - Project mission and boundaries: [Project Charter](../PROJECT_CHARTER.md)
-- Research method: [Research Operating System](../docs/RESEARCH_OPERATING_SYSTEM.md)
+- Research method: [Stage Orchestrator SOP](../docs/STAGE_ORCHESTRATOR_SOP.md)
 - Contribution route: [CONTRIBUTING.md](../CONTRIBUTING.md)

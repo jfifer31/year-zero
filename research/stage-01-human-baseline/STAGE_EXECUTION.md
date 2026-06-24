@@ -31,7 +31,7 @@ Stage 1 has no prior-stage pass-forward. It may use only the Stage 0 operating f
 | Input ID | Input file or source | What may be used | Restrictions or cautions |
 |---|---|---|---|
 | I-001 | `AGENTS.md` | Agent sequence, harness definitions and handoff discipline | Agent descriptions are operating instructions, not evidence |
-| I-002 | `docs/RESEARCH_OPERATING_SYSTEM.md` | Method, evidence, claim, uncertainty, gate and pass-forward rules | Canonical methodological authority |
+| I-002 | `docs/STAGE_ORCHESTRATOR_SOP.md` | Method, evidence, claim, uncertainty, gate and pass-forward rules | Canonical methodological authority |
 | I-003 | `research/README.md` | Stage sequence and dependency boundaries | Does not authorise later-stage work |
 | I-004 | `STAGE_GUIDE.md` | Stage 1 purpose, questions, scope, outputs and completion conditions | Primary stage-specific authority |
 | I-005 | `/templates/` | Required output structures and ledger schema | Templates must not be treated as findings |
@@ -365,7 +365,7 @@ Before the final Stage 1 PR may pass:
 | Domain imbalance | Cognitive evidence may crowd out social, embodied or cultural evidence | Enforce workstream coverage and W6 audit |
 | Stage drift | Findings may become capability or curriculum prescriptions | Record only downstream implications and prohibited overextensions |
 | False universality | Adolescent and human-science evidence is context-sensitive | Scope every claim and preserve variation |
-| File sprawl | Parallel work may produce unmanaged artefacts | Integrate directly into the six canonical files |
+| File sprawl | Parallel work may produce unmanaged artefacts | Integrate directly into the six authority files |
 | Public overclaiming | A clear summary can accidentally erase uncertainty | Audit every public statement against report and ledger records |
 
 ## 15. Start decision

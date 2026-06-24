@@ -6,6 +6,10 @@ This is the controlled handoff from one stage to the next.
 
 The next stage may rely only on what this file explicitly authorises.
 
+`STAGE_BOOK.md` may help public understanding, but it is not downstream authority unless a claim is also authorised here.
+
+Pipeline reminder: `STAGE_BOOK.md` needs independent literary review; major process milestones should appear in resumability logging.
+
 ---
 
 ## 1. Stage identity
@@ -15,6 +19,8 @@ The next stage may rely only on what this file explicitly authorises.
 **Pass-forward date:**  
 **Prepared by:**  
 **Stage review decision:** `pass | pass_with_cautions | revise_before_pass | rollback_required`  
+**Required sign-off:** Clu + Claim Steward + Evidence Auditor + required stage reviewers  
+**Sign-off status:** `draft | ready | ready_with_cautions | revise_before_ready | blocked`
 
 ---
 
@@ -99,6 +105,12 @@ List claims that are easy to misuse.
 | Downstream item likely affected | Upstream record(s) | Notes |
 |---|---|---|
 |  |  |  |
+
+### 10.1 Reader-facing companion
+
+| Output | Status | Authority note |
+|---|---|---|
+| `STAGE_BOOK.md` | `approved`, `approved_with_minor_edits`, `revise_before_approval` or `reject_and_rewrite` | Not downstream authority. |
 
 ---
 

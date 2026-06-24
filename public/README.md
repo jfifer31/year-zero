@@ -56,7 +56,7 @@ Human Baseline
 → Verification and Release
 ```
 
-Use the [research-stage index](../research/README.md) to follow the stages. The full method, evidence rules and gate requirements are in the [Research Operating System](../docs/RESEARCH_OPERATING_SYSTEM.md).
+Use the [research-stage index](../research/README.md) to follow the stages. The full method, evidence rules and gate requirements are in the [Stage Orchestrator SOP](../docs/STAGE_ORCHESTRATOR_SOP.md).
 
 ## 6. How to use early materials safely
 

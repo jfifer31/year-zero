@@ -63,7 +63,7 @@ Do not present anecdote as proof. Practical experience is valuable, but it shoul
 
 If your contribution affects a claim, identify the claim type and whether your change affects evidence, confidence, uncertainty, downstream use or revision triggers.
 
-Use the full claim taxonomy and handling rules in `docs/RESEARCH_OPERATING_SYSTEM.md`; this file does not duplicate them.
+Use the full claim taxonomy and handling rules in `docs/STAGE_ORCHESTRATOR_SOP.md`; this file does not duplicate them.
 
 ---
 

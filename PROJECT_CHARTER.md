@@ -140,7 +140,7 @@ The goal is not to wait until certainty exists. The goal is to avoid pretending 
 
 The research chain is the central structure of the project: it moves from human foundations and AI-shaped future conditions into convergence, derivation, learning evidence, curriculum architecture and release readiness.
 
-The canonical phase sequence lives in [`ROADMAP.md`](ROADMAP.md). The stage navigation table and guide links live in [`research/README.md`](research/README.md). The dependency discipline, pass-forward principle and method rules live in [`docs/RESEARCH_OPERATING_SYSTEM.md`](docs/RESEARCH_OPERATING_SYSTEM.md).
+The canonical phase sequence lives in [`ROADMAP.md`](ROADMAP.md). The stage navigation table and guide links live in [`research/README.md`](research/README.md). The dependency discipline, pass-forward principle and method rules live in [`docs/STAGE_ORCHESTRATOR_SOP.md`](docs/STAGE_ORCHESTRATOR_SOP.md).
 
 ---
 
@@ -148,7 +148,7 @@ The canonical phase sequence lives in [`ROADMAP.md`](ROADMAP.md). The stage navi
 
 The project separates empirical findings, working assumptions, normative judgements, speculative projections and later-stage design decisions. No agent or contributor may present one claim type as another.
 
-The full operational taxonomy, handling rules, evidence standards, confidence language, uncertainty requirements, pass-forward protocol and adversarial review rules are defined in `docs/RESEARCH_OPERATING_SYSTEM.md`.
+The full operational taxonomy, handling rules, evidence standards, confidence language, uncertainty requirements, pass-forward protocol and adversarial review rules are defined in `docs/STAGE_ORCHESTRATOR_SOP.md`.
 
 ---
 

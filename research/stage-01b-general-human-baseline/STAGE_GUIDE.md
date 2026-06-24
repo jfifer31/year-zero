@@ -66,7 +66,7 @@ The study must preserve contrary evidence, causal limits, cultural variation, mi
 
 ## 9. Required outputs
 
-The six canonical files must contain:
+The six authority files plus `STAGE_BOOK.md` must contain:
 
 - Minimum General Human Baseline;
 - Human Drives and Motives Map;
