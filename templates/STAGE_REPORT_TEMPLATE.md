@@ -21,6 +21,9 @@ Pipeline reminder: `PASS_FORWARD.md` is downstream authority; `STAGE_BOOK.md` ne
 **Review agents:**  
 **Book output:** `STAGE_BOOK.md`
 
+**Required sign-off:** Documentation Editor + Claim Steward + Evidence Auditor + relevant domain lead  
+**Sign-off status:** `draft | ready | ready_with_cautions | revise_before_ready | blocked`
+
 ---
 
 ## 2. Executive summary

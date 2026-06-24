@@ -127,6 +127,14 @@ PUBLIC_SUMMARY.md
 STAGE_BOOK.md
 ```
 
+When Stage 4 uses a scenario or lived-world book form, create a checkpoint artifact before rewriting the final manuscript:
+
+```text
+STAGE_BOOK_STORY_OVERVIEW.md
+```
+
+This file should hold the worldspace matrix, forecast anchors, world condition cards, protagonist dossiers, scene-level story overview and Clu manual review. It is allowed as a distinct operating artifact because Stage 4 scenario books must pass world design before prose drafting. It is not downstream authority and should not appear inside the public manuscript body.
+
 ## 11. Stage ledger requirements
 
 The ledger should include records for:

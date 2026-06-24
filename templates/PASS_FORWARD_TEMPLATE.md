@@ -19,6 +19,8 @@ Pipeline reminder: `STAGE_BOOK.md` needs independent literary review; major proc
 **Pass-forward date:**  
 **Prepared by:**  
 **Stage review decision:** `pass | pass_with_cautions | revise_before_pass | rollback_required`  
+**Required sign-off:** Clu + Claim Steward + Evidence Auditor + required stage reviewers  
+**Sign-off status:** `draft | ready | ready_with_cautions | revise_before_ready | blocked`
 
 ---
 
@@ -108,7 +110,7 @@ List claims that are easy to misuse.
 
 | Output | Status | Authority note |
 |---|---|---|
-| `STAGE_BOOK.md` | `approved | approved_with_minor_edits | revise_before_approval | reject_and_rewrite` | Not downstream authority. |
+| `STAGE_BOOK.md` | `approved`, `approved_with_minor_edits`, `revise_before_approval` or `reject_and_rewrite` | Not downstream authority. |
 
 ---
 

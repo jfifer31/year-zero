@@ -16,6 +16,8 @@ Pipeline reminder: `STAGE_BOOK.md` needs independent literary review; major proc
 
 **Stage:**  
 **Plain-language title:**  
+**Required sign-off:** Public Narrative Strategist + Claim Steward + Clu  
+**Sign-off status:** `draft | ready | ready_with_cautions | revise_before_ready | blocked`
 
 ---
 
